@@ -1,0 +1,2050 @@
+{
+  "source": "https://doi.org/10.5281/zenodo.15876410",
+  "zenodo_record": "15876410",
+  "archive": {
+    "path": "data\\raw\\dataset_causRCA.zip",
+    "md5": "5d57a40184697a4c2bf9eef7c385ebb5",
+    "expected_md5": "5d57a40184697a4c2bf9eef7c385ebb5"
+  },
+  "official_repository_snapshot": "data/extracted/github/causRCA-main",
+  "files": [
+    {
+      "path": "README_DATASET.md",
+      "bytes": 7548,
+      "sha256": "05989f914fd3820c277f84ba988c1a1aa48796b9c9575e34e67ab174fe791785"
+    },
+    {
+      "path": "expert_graph\\all_edges.csv",
+      "bytes": 15944,
+      "sha256": "440788c286169073806e27b01e4b72ba6c37828b8f6985143b7af4fd2012acde"
+    },
+    {
+      "path": "expert_graph\\all_nodes.csv",
+      "bytes": 14049,
+      "sha256": "6610679518b3182e1f77e8d2e5b14638ae53cbad6e4f696c4a688e92accdd55c"
+    },
+    {
+      "path": "expert_graph\\expert_graph.gml",
+      "bytes": 67141,
+      "sha256": "67127604592194d0e1d0abf6e87331141ceb609eed0d5eeffee0295f4142f581"
+    },
+    {
+      "path": "expert_graph\\expert_graph.html",
+      "bytes": 188819,
+      "sha256": "085a17b43498faabbd93b2ca6f5e9f022727a707d11a3c4bfd600b625df65849"
+    },
+    {
+      "path": "real_op\\dataset_real_op_28610.csv",
+      "bytes": 134134,
+      "sha256": "5218937c0c2139ce415dcc0867a8b77f8959b4beb6596298389e77c1f8ad91f8"
+    },
+    {
+      "path": "real_op\\dataset_real_op_28717.csv",
+      "bytes": 153233,
+      "sha256": "0038864bd02950e46c14455d687594417492237a2fd600d61b1c85bd8415caa1"
+    },
+    {
+      "path": "real_op\\dataset_real_op_29461.csv",
+      "bytes": 2572,
+      "sha256": "ee13df8a07c10d61ff0246e0d33a00286828043a1f2aed64fd36e08fce5e6b50"
+    },
+    {
+      "path": "real_op\\dataset_real_op_29795.csv",
+      "bytes": 2392,
+      "sha256": "4727c0c009f83027d49a884626380fc404ca3b14f37d31de5e4b23dbd8c866a9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_29832.csv",
+      "bytes": 3569,
+      "sha256": "ab93ea178e7dc9580beeed5baa431eadd46608be3f445cf4f8524aa0b9fbad90"
+    },
+    {
+      "path": "real_op\\dataset_real_op_29930.csv",
+      "bytes": 88429,
+      "sha256": "0a3ff9bae23f5621fcd04f0a3b02c319b33df9dcc98fe7daf6d922206a1d230f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_30034.csv",
+      "bytes": 61537,
+      "sha256": "a501f4bb90f94555401df2e6592a6b268dc28e693d2fdf77d937f59704381675"
+    },
+    {
+      "path": "real_op\\dataset_real_op_30325.csv",
+      "bytes": 4511,
+      "sha256": "5dcec6e9f7290e2ac398fe346f85b86959a4b1ae0580e1e49a4303d70897fdeb"
+    },
+    {
+      "path": "real_op\\dataset_real_op_30799.csv",
+      "bytes": 3856,
+      "sha256": "d753657350a6bb37f1cac6ca0f3a11728b650db2c5aa31f34c2b70b50d68b631"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31038.csv",
+      "bytes": 135728,
+      "sha256": "de77579a0390668d5374ea05cf08856a0d19c9eb78d03fd250c7a12ebae6c8aa"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31164.csv",
+      "bytes": 43829,
+      "sha256": "e744fbff1c9100fdca02cd5705af10a4362b70bd194f15b385dfb5891e44caf4"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31276.csv",
+      "bytes": 128788,
+      "sha256": "d5e0a57f3d1f5186f9d9fc6845ddd9887d4a977e326867a48c480e8a57985be6"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31410.csv",
+      "bytes": 45137,
+      "sha256": "cd1ff36168a35d52519568608d877edd31e64285c34bb33232c3c5551a7f26d3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31523.csv",
+      "bytes": 69634,
+      "sha256": "65b432df3622bfbb683e3d07f9b31c6a62d901364c83bdf4a2c4121e39d02003"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31800.csv",
+      "bytes": 143610,
+      "sha256": "3fb754483443fa9fd3267cde5268056ed4150e1af03c9a77cf21203fcecc1c4a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_31940.csv",
+      "bytes": 46215,
+      "sha256": "cf1e4845adc2735150421f615e81e9e07a9de3bbefd3e4f522888d74f3d9ed17"
+    },
+    {
+      "path": "real_op\\dataset_real_op_32222.csv",
+      "bytes": 3712,
+      "sha256": "9ebe6a4f225cc5608a6fc770443eac80a4dc894e03c426cb2d7a78270f9168f9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_32645.csv",
+      "bytes": 19467,
+      "sha256": "2f240d3d5fd7e13ed82c5160f5498fb84e2ca9478f13d79f50aa6c380593f0c5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_33014.csv",
+      "bytes": 3147,
+      "sha256": "7f3cb13aa5c3db1f38cdea5553f98027e3b21972216fafdfc2f0c7e18d4032d7"
+    },
+    {
+      "path": "real_op\\dataset_real_op_33139.csv",
+      "bytes": 24251,
+      "sha256": "fc3d9b28b5cf2b1e2675f2235e1196e1e05d2b507f2f7f05ccc23d2d5e4ce11c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_33909.csv",
+      "bytes": 3286,
+      "sha256": "95af6729cfa9950738271f3cff4b5f46b547078f188e3de6702e2c3f87e3268c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_33954.csv",
+      "bytes": 2377,
+      "sha256": "9a305d7020a618efc2cad45ad3fcd5ba53099ac34ed0e6e15d42863c40b5e583"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34061.csv",
+      "bytes": 83996,
+      "sha256": "0250e35ea1bccfb4fd0313b19a1992817f619782ee92d84078de38c51e7ad4c8"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34229.csv",
+      "bytes": 2932,
+      "sha256": "5f49766b6d6fd53152dd93ea69819c406cf0c9e1e3ae1ccfdf34ba7d8f27e33a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34333.csv",
+      "bytes": 2422,
+      "sha256": "5eb7f5a2e9d028e64886225cadcbf0b01e57b5cdd2ae3ec3cc1193e44b44c650"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34360.csv",
+      "bytes": 5771,
+      "sha256": "50151a6af9cb96a77bb3f379fa694d9151885c517515b17eb1009486c69c4c1f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34455.csv",
+      "bytes": 60789,
+      "sha256": "d55be81ebd580ad764168fe8691cc55f8395873e3177d6153dde276764d0e232"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34855.csv",
+      "bytes": 3198,
+      "sha256": "1100c3b993fecd0731763925027234d2883ed072995b0788b707e81e4a272843"
+    },
+    {
+      "path": "real_op\\dataset_real_op_34997.csv",
+      "bytes": 133676,
+      "sha256": "16a0e9ebe3f45ba8984e3feab08c0fa0e7f37b179ec2ad89ecf0512fc30fb01d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_35440.csv",
+      "bytes": 3195,
+      "sha256": "f11ac90f99c6ba7941396b6e1b273b04f681133bb9b5603c8bbf7a380dd988d4"
+    },
+    {
+      "path": "real_op\\dataset_real_op_36045.csv",
+      "bytes": 68130,
+      "sha256": "4d8bee9c19619a36b12f6221558667c6ed9ff708e8b7c8de585fb4c8b29e168a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_36192.csv",
+      "bytes": 20160,
+      "sha256": "7e221630864f48e53e0f6d12867a0017279fe588d5aee41d877ce5e4bb22845d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_36587.csv",
+      "bytes": 5035,
+      "sha256": "40d0664e4f4133520f7abb5154fd9ac7e227ba0592e292153de4d994f0f0db4b"
+    },
+    {
+      "path": "real_op\\dataset_real_op_37161.csv",
+      "bytes": 3273,
+      "sha256": "4f31001389c2db515721a6cf8a56b5cab9b4f4ce0908ff0e96acbafd5d2f20c9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_37534.csv",
+      "bytes": 149878,
+      "sha256": "777f62978a378481df71f1eaa57f0bfe30017faab5c024e7530168eb18821dc5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_38130.csv",
+      "bytes": 3394,
+      "sha256": "66ff7de5f5c4679905c58ec3af5257b203d908bb15bbb5ef1b5f6ffda3c5d862"
+    },
+    {
+      "path": "real_op\\dataset_real_op_38289.csv",
+      "bytes": 3386,
+      "sha256": "5815ce0761d7c9d2ffe2f6e1e2581a2a18c1cf5c565436c9d74fb5836acec21e"
+    },
+    {
+      "path": "real_op\\dataset_real_op_39422.csv",
+      "bytes": 4646,
+      "sha256": "50727bf1e9641e3523e3990092ac7cf82e500a14e811adb987492622ba96f0b3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_39577.csv",
+      "bytes": 3854,
+      "sha256": "667f84ca3f84e51d5fcecdf6be920c8008f064dc8c7984eb04b39f2ccbc4d1e0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_39819.csv",
+      "bytes": 15299,
+      "sha256": "ed01a83ce73f1bfd7013a985751f83c1cd937a5ce5ee54b8068059c2bd8aa5ae"
+    },
+    {
+      "path": "real_op\\dataset_real_op_39926.csv",
+      "bytes": 72995,
+      "sha256": "d17ed8798b1ab87115edc041f0df59f18364c10a2361c3f9f718d21936d27028"
+    },
+    {
+      "path": "real_op\\dataset_real_op_40036.csv",
+      "bytes": 4553,
+      "sha256": "5a415ad7b792ab6dfbd309291417d74d2c2b5ce9c6d2acf9f5016b7de1eb8653"
+    },
+    {
+      "path": "real_op\\dataset_real_op_40268.csv",
+      "bytes": 3469,
+      "sha256": "bb968ce1d0acd8d9c21e6f534e0d138d97f13c7fa02ff2f0e6c0c0ca58058197"
+    },
+    {
+      "path": "real_op\\dataset_real_op_40400.csv",
+      "bytes": 3340,
+      "sha256": "c8d6b7e9a0be0efbaa76bf14773ee1e734ca607a3ddf7b1a46a62ebb0a721c2c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_40561.csv",
+      "bytes": 3094,
+      "sha256": "f43a504377d4b69ed42abff493fbf874dfddbc00290e3126047d33e681241b41"
+    },
+    {
+      "path": "real_op\\dataset_real_op_41032.csv",
+      "bytes": 3110,
+      "sha256": "3316ce0ee2ebad92e793a3cd7f9d699bf3062d584f6e7be6b2ee2e6d32c1e90a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_41706.csv",
+      "bytes": 108848,
+      "sha256": "d531ed4d484b49c3371f78664bc016d454b952348f93ed087d157406ead437d5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_41896.csv",
+      "bytes": 105957,
+      "sha256": "4fc8cd0b4031f7004d642b8611115bf6b45bf7c4363d964966ff5b515d480fc0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42053.csv",
+      "bytes": 3067,
+      "sha256": "b156f27b40c3f5aeb58788fdb5aa3b7f7d511925cd56cf9fbfbc39a9717cfd79"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42157.csv",
+      "bytes": 33232,
+      "sha256": "4f719d848e522d02f41bf7409d57be8653ff9b1f2ed61213d8898adbb8861186"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42277.csv",
+      "bytes": 2996,
+      "sha256": "ae755fcb3cf372a8d5a9f70db0abc8165eec107144681980eeecf9df4561b404"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42426.csv",
+      "bytes": 3833,
+      "sha256": "389c03b1f6ec44c1c74aca10515a5904a636d75f2c06f3805277bc80b7f4bde0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42553.csv",
+      "bytes": 3959,
+      "sha256": "d9ee5d676c0f642a03c056bbc6766d60281be4934e43c229f96dd18cc8ecbeb0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42716.csv",
+      "bytes": 4996,
+      "sha256": "1aa15f8b80b1fe790d98ff346bec4c055bc6f3874d1a1218249e7072ff66f9cc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42849.csv",
+      "bytes": 14104,
+      "sha256": "0afcfcd961f91769c01045f4c43fb706ae6bf633e6b9effe8b3f20c4744b363f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_42967.csv",
+      "bytes": 19119,
+      "sha256": "c8b96f2a20eaaa62d55ff7582a2cb7ce44c289addca22d9336d93c75b813e233"
+    },
+    {
+      "path": "real_op\\dataset_real_op_43044.csv",
+      "bytes": 2987,
+      "sha256": "4804cfb832ea1ebc3e6fc58c86c357d01a924ed210a4233e562bf0b5aafbcfe5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_43345.csv",
+      "bytes": 3573,
+      "sha256": "87755f9b0afd31e41a2c7c0defab041bf9af2111ad7b0b22ae665b5130bd312f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_43733.csv",
+      "bytes": 3440,
+      "sha256": "c4f7bbf2102ce42da787f9ca9ff229082386caebc0850a568bdde56f3fedfc74"
+    },
+    {
+      "path": "real_op\\dataset_real_op_44275.csv",
+      "bytes": 3192,
+      "sha256": "ac0241a0693bdf420d16d5e306e01d4f127d07b71644eed0d0e2335e1cd4a655"
+    },
+    {
+      "path": "real_op\\dataset_real_op_44405.csv",
+      "bytes": 3509,
+      "sha256": "0ec6b7e6e1ec95c6cdd68ec9ecdb68932ebafa1b224b47fe077aa83ad097234e"
+    },
+    {
+      "path": "real_op\\dataset_real_op_44885.csv",
+      "bytes": 3764,
+      "sha256": "2ce60f6fa1f406a8a2ac7085c899266046b7221442dfc6d8a9e617fca70bcd74"
+    },
+    {
+      "path": "real_op\\dataset_real_op_44997.csv",
+      "bytes": 3628,
+      "sha256": "e51a1718a8e5cb865c8790fb143b3f102ea3a6efcb39003a38b9169a7003d25f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_45441.csv",
+      "bytes": 146742,
+      "sha256": "37c8f0d1e706233c7127d488b15a463d620ddb131257419b5b6c16e02d354516"
+    },
+    {
+      "path": "real_op\\dataset_real_op_45576.csv",
+      "bytes": 143742,
+      "sha256": "3598b03a6873953f39fafaa3acaf0917e734690daba8365bc6155f32eb26b140"
+    },
+    {
+      "path": "real_op\\dataset_real_op_45736.csv",
+      "bytes": 140330,
+      "sha256": "709696c23558d41b6bd02f4982be864ef3b6caeda9d0330ef0933f910ce163fb"
+    },
+    {
+      "path": "real_op\\dataset_real_op_46248.csv",
+      "bytes": 163464,
+      "sha256": "9b1f0176959d45c27c2cf29895c4c89b616ed369ae87ebe33d0b78e4b8470ae2"
+    },
+    {
+      "path": "real_op\\dataset_real_op_46565.csv",
+      "bytes": 152256,
+      "sha256": "1c3417adbe7771ddbd243718cb1407d6214475fadd11811b38ab2a4227bf618a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_46715.csv",
+      "bytes": 149421,
+      "sha256": "9bbb6fd2fa35647c9323be890c8ab48108d700a9952520a446e7d92411460ef5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_46977.csv",
+      "bytes": 145248,
+      "sha256": "fc7a6ade96ba9aa3cc07b89d389abad2fcc37ca4a76332fa08a7dd51d9cc9d22"
+    },
+    {
+      "path": "real_op\\dataset_real_op_47084.csv",
+      "bytes": 140501,
+      "sha256": "cf29bb60ee8ad59d5d14f35e7dcf20495ffd6e65816a2a237e32efea83831b63"
+    },
+    {
+      "path": "real_op\\dataset_real_op_47250.csv",
+      "bytes": 142840,
+      "sha256": "8b0260c3b02759143af7ace20408f3e79ccb1009428fd503fc303a915321a484"
+    },
+    {
+      "path": "real_op\\dataset_real_op_47513.csv",
+      "bytes": 132317,
+      "sha256": "4215d6c3b8a6eda06e0f3c10acaed9ba7102c4421a692c4ef5f02bbc8a6e1423"
+    },
+    {
+      "path": "real_op\\dataset_real_op_47791.csv",
+      "bytes": 146799,
+      "sha256": "446f330f26b01aa187461e5ac77222eb00b558ca88bfd0abdad8fc0dd4bedad1"
+    },
+    {
+      "path": "real_op\\dataset_real_op_47976.csv",
+      "bytes": 141681,
+      "sha256": "13f37f284502dd3e6f206f479770232e7a451bc82a7ac88ee7ef0459eedd076e"
+    },
+    {
+      "path": "real_op\\dataset_real_op_48043.csv",
+      "bytes": 141410,
+      "sha256": "20dcab649023f61bb64ee1000f2f26402f7e04d5611a0ac8cbbcbec6bf7721fc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_48362.csv",
+      "bytes": 142030,
+      "sha256": "176d75fcc5e75772a06e4e4f93ab86c4bdd2df99d0388a11b379e136a9880ec7"
+    },
+    {
+      "path": "real_op\\dataset_real_op_48551.csv",
+      "bytes": 152392,
+      "sha256": "7b9e908ddf253b3363fa543a8466f4230c3bd7fd3e5540fb368914ba76f8030a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_48711.csv",
+      "bytes": 142478,
+      "sha256": "d027ea7197de72feff282711a829362286ae6caa386e979d35db7080729bff71"
+    },
+    {
+      "path": "real_op\\dataset_real_op_49134.csv",
+      "bytes": 143777,
+      "sha256": "66f12f98c20c639a0ce3428093ca7c3496810c72981267c857bbc9e19549772c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_49305.csv",
+      "bytes": 144987,
+      "sha256": "0e0a1d5d7b696ed34f1ff8e7706622fd43b63554344793dabfcea55c8851c12f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_49695.csv",
+      "bytes": 163857,
+      "sha256": "5f72aa3c33c2c54836d7f1a4c2845f0549597bfb3750b962f6f41c87ebbb6802"
+    },
+    {
+      "path": "real_op\\dataset_real_op_50602.csv",
+      "bytes": 143357,
+      "sha256": "c191bcb301c5f38555767eacb2c9708e9fcf32048a38d766a3e264fc6f74ec98"
+    },
+    {
+      "path": "real_op\\dataset_real_op_50909.csv",
+      "bytes": 146101,
+      "sha256": "fd068de00365b868078b1364ceca383104b1a52a3e25d9b640305fd86dec0407"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51151.csv",
+      "bytes": 147677,
+      "sha256": "8cfbe16976ac436a776c49cd545b8a15e3467cf064ba7c205f5a64ba9a243e79"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51473.csv",
+      "bytes": 128665,
+      "sha256": "6cd73771f8a3747afa21da93db2ce5768ea2db9bfde65a88e72c7fba7febc0f5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51642.csv",
+      "bytes": 146821,
+      "sha256": "84a69945f182b51f5a1a67507b1fdf427b8785ce28866ee53eeb367fae5c1ecf"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51733.csv",
+      "bytes": 144212,
+      "sha256": "05de00aab9b39dc37fbe8314e85af262966e23adc6c1f05ce000fbd0da1a0128"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51811.csv",
+      "bytes": 147792,
+      "sha256": "2c24eb8a4c26c2acd00e2c75b36df99a027025fc541745be9ae99cc62ac88bbc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_51880.csv",
+      "bytes": 150596,
+      "sha256": "e460986446f6bee1d0b4e8e3953480c87de691cb3e8c26a0aa48ae6375336a18"
+    },
+    {
+      "path": "real_op\\dataset_real_op_52012.csv",
+      "bytes": 152138,
+      "sha256": "75f2f0fa103648d39f3eff00bd5444d49c5b9724b431185e27812083b464d687"
+    },
+    {
+      "path": "real_op\\dataset_real_op_52425.csv",
+      "bytes": 140330,
+      "sha256": "51c81c438ebfad4a12112b4cf592424deb02f9331b87b0ca58210da8f2c382d9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_52560.csv",
+      "bytes": 145363,
+      "sha256": "a155320359b82f8e95eff2a5930bf9ff56ec8d4def154daf92b614b19edba964"
+    },
+    {
+      "path": "real_op\\dataset_real_op_52899.csv",
+      "bytes": 154252,
+      "sha256": "6ab4664c94558ec6f50e6e4cc8d71acf906b08835f1edcec1151eca6608a2d3b"
+    },
+    {
+      "path": "real_op\\dataset_real_op_53329.csv",
+      "bytes": 44516,
+      "sha256": "bc9edd023bfeac6e700e94f5bc721a72bebedad5e5ec1399c4afb2417d86ee7f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_53834.csv",
+      "bytes": 28749,
+      "sha256": "7293102744405a3f60319500d1ff61ccea3b2ea8c481b3eefbdc1a4b05ec5e1c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_53836.csv",
+      "bytes": 27563,
+      "sha256": "1baf7e20023269097eb3a23a90f1a95b54044b4c85d2e12996391ff1e20cd781"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54061.csv",
+      "bytes": 13971,
+      "sha256": "a2cd327c96b206447bd8a90dc76979d325e07056ae42b3b03d085f46d559bb1c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54170.csv",
+      "bytes": 42816,
+      "sha256": "c6097de463641d10c4f89ca9eb4d1e3027d26d3d69422dcd3a55fb5439b3e462"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54222.csv",
+      "bytes": 138836,
+      "sha256": "ace23319f898ac63238b904ebc15fba87d9bcbae8e7cad96927371da30102a61"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54328.csv",
+      "bytes": 137017,
+      "sha256": "1df53f1f324162ee05fc4504156d675ac27ab9e213ec06b14a5398044c6b948d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54408.csv",
+      "bytes": 148137,
+      "sha256": "5b186e10a103a40b77c005e0cd2630581544f1c42282ff3f9d1c4a8d68e802b3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54634.csv",
+      "bytes": 142754,
+      "sha256": "6d5f70d28e9b393ca60305bebaacee1bb0083e42ad36d63c4c63b54079060f14"
+    },
+    {
+      "path": "real_op\\dataset_real_op_54806.csv",
+      "bytes": 143877,
+      "sha256": "8e19a5e2e16cbeb72778ad9f0b6b58f5c47f461d5f8399cea5922dcd0b22d455"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55171.csv",
+      "bytes": 141539,
+      "sha256": "314dc4db58607482e98dbe941c4aeea5eb3ad732394fe6a66cb8dc1ef2090e46"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55315.csv",
+      "bytes": 150283,
+      "sha256": "4dfea7d9cc6dd7c1f422bc2bc4770eb2fb066373857ecc32215994abf006c00d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55476.csv",
+      "bytes": 138283,
+      "sha256": "9d1094a5921ceeefd2c7c618278c3f9842c4fb389589472f7976d22594f4b79f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55654.csv",
+      "bytes": 141625,
+      "sha256": "66a440f0a1ce642594214556e0871246d89eb65ad65d5cd8f701c526e1511a30"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55761.csv",
+      "bytes": 151224,
+      "sha256": "94d6bc0273b9d39b49d959725487a692454e8b102096fa968ff436547a6a81fc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_55841.csv",
+      "bytes": 143636,
+      "sha256": "60976081d39dc47985b147c4222681c0354ce432ae967f5868e39991faef524d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_56292.csv",
+      "bytes": 139796,
+      "sha256": "dacfaeebac36bb647dbc575c5cf5cd2def86e39de847a9f301630ac0f8c28ad1"
+    },
+    {
+      "path": "real_op\\dataset_real_op_56451.csv",
+      "bytes": 143130,
+      "sha256": "07da05155070b1f67291db11dbd6b1566d06870399d68d4f1cdbc69e1ff5b3a9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_56588.csv",
+      "bytes": 154697,
+      "sha256": "34b56d538b0164382a9c6550d90738b7631d2b94842673b38a4b56549f53900c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_56742.csv",
+      "bytes": 145131,
+      "sha256": "f8cd85a133cd2de5bf661b8641e0670ec29fb715acdd8896b7c2c65f5a4dcc24"
+    },
+    {
+      "path": "real_op\\dataset_real_op_56992.csv",
+      "bytes": 43671,
+      "sha256": "d8fee13ed11e850b6d79b008828bb8c6dc375454180829b3e2bf4f27366e4753"
+    },
+    {
+      "path": "real_op\\dataset_real_op_57266.csv",
+      "bytes": 146229,
+      "sha256": "0622f97739263372800727f7a1460c69507e1d271b841125f5ef746a1fa6aef9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_57545.csv",
+      "bytes": 144656,
+      "sha256": "bafc21112e1c6c8dd68d3ee0c30673741b0910f55349a0158c5e839409215126"
+    },
+    {
+      "path": "real_op\\dataset_real_op_57731.csv",
+      "bytes": 141927,
+      "sha256": "987b8d3f18067dd7360fb2c96880cf745334c92565f718f7cb52bd991f48316f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_58890.csv",
+      "bytes": 159246,
+      "sha256": "53e62704a85dc5540d07abb01eb5f506d15e9093f5d6ba77c5df49be8e100f3b"
+    },
+    {
+      "path": "real_op\\dataset_real_op_59058.csv",
+      "bytes": 158753,
+      "sha256": "b7fe8fd3619e8c202986ba89b0a862706f2a612faf2bf92b03fedf9d9e0309f9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_59189.csv",
+      "bytes": 159209,
+      "sha256": "c3ac9871161d55cbdf33e55e84030e4f5b81839148e23e9fe7ccef98c79dac2d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_59333.csv",
+      "bytes": 160470,
+      "sha256": "6a32c6199e5f6c09373dd584054aec892cb228e8093603464ee22e2c6f97145c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_59380.csv",
+      "bytes": 142161,
+      "sha256": "df8d8507b80ccb7dc5295387228cf7488edf6ad9d6b7b3ddedabca4e9b74e8ce"
+    },
+    {
+      "path": "real_op\\dataset_real_op_59516.csv",
+      "bytes": 128471,
+      "sha256": "4d2647bd05a16694b2b9c83651cb78aadc9f92229b94c666de325224a292e8f3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60153.csv",
+      "bytes": 149947,
+      "sha256": "e828cadc464dfb8b89e25baae7e21dcb73509e80014a602baa2a09191e708ffa"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60300.csv",
+      "bytes": 148835,
+      "sha256": "c6151085779bb3f47bc31c69f100b2c8a86c4a46ff8d81e498d4b675a0093370"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60432.csv",
+      "bytes": 148115,
+      "sha256": "2a5ce73a06f62c3efc401b8c6b4006ebc0684536b251b8a7132d3f88b2ee73f0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60562.csv",
+      "bytes": 47471,
+      "sha256": "83eedfa9ff25e62bc7d997cdfb043b24c14b5783c84dd38e3732c0669dc85019"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60718.csv",
+      "bytes": 144047,
+      "sha256": "12d3d6fbc3c32dec4343c570ba9ce49a8500c568d01209ddd2242034385e45dc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_60965.csv",
+      "bytes": 143282,
+      "sha256": "ed08b62b66b1251bed787655acad5e4689210c43cf204c59afb454c566260910"
+    },
+    {
+      "path": "real_op\\dataset_real_op_61174.csv",
+      "bytes": 144313,
+      "sha256": "a5a65be269ec9ccd1e4554ba02edb184d3938c3e6dee28cf644cabf2fe0259cf"
+    },
+    {
+      "path": "real_op\\dataset_real_op_61320.csv",
+      "bytes": 144994,
+      "sha256": "b8b16f0e61a20a07bf34bc86392c91f88e68e3dfd8aa9bbc206f34dea2ab2ebc"
+    },
+    {
+      "path": "real_op\\dataset_real_op_61436.csv",
+      "bytes": 14997,
+      "sha256": "9759b2e2e2dea495a2a2745452004eb4b863afa6af2ca332fe194c0af490979f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_61498.csv",
+      "bytes": 147183,
+      "sha256": "ac87fd895499cda1cf9933ec562f718243eab1fdb797830692524f54921a011c"
+    },
+    {
+      "path": "real_op\\dataset_real_op_61618.csv",
+      "bytes": 130787,
+      "sha256": "218f94735aa3d82e9fc50d4fe5cae2ba5360d412ea84afda2378d93513194bcb"
+    },
+    {
+      "path": "real_op\\dataset_real_op_62329.csv",
+      "bytes": 44025,
+      "sha256": "d333ab289de3bb6714e815242c7705867ab466fd8ec876b03e0022520710467f"
+    },
+    {
+      "path": "real_op\\dataset_real_op_62397.csv",
+      "bytes": 160621,
+      "sha256": "cd3df745434e00062767e74c2d12a475ce52e05467a141cfa0592c647a062391"
+    },
+    {
+      "path": "real_op\\dataset_real_op_62637.csv",
+      "bytes": 14057,
+      "sha256": "dd449cf1673bb767e3531f77e0dfe883c111ca507e5d6b6fc62470b5bd203985"
+    },
+    {
+      "path": "real_op\\dataset_real_op_62644.csv",
+      "bytes": 16483,
+      "sha256": "ff845f526cca87baa7732bb5ad3cea2bd9bfda87215fc72cd787dd2feec12cf9"
+    },
+    {
+      "path": "real_op\\dataset_real_op_65453.csv",
+      "bytes": 151618,
+      "sha256": "2235ab81898ba05e0acdfadfcd450641bebf72a2ec2b91a522400d4f2906cfcb"
+    },
+    {
+      "path": "real_op\\dataset_real_op_65636.csv",
+      "bytes": 149268,
+      "sha256": "81483be1fba49eb5fcf4fb379a4338aca346448aebc87185083e2c34350bec4b"
+    },
+    {
+      "path": "real_op\\dataset_real_op_65790.csv",
+      "bytes": 148463,
+      "sha256": "408a33e64d476abe6dfd58e7c26d4a4fd1c3863e221c5cdb9b377f87004c4505"
+    },
+    {
+      "path": "real_op\\dataset_real_op_65859.csv",
+      "bytes": 115931,
+      "sha256": "7ac74626146ed1c1c27c19083132b733232ad5db8e1347a77945c8c28afe61bb"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66050.csv",
+      "bytes": 149877,
+      "sha256": "ea533f788ae6e9360e10496c31f3993edb1ea2226814d5059ea3586a33c49da8"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66496.csv",
+      "bytes": 154132,
+      "sha256": "48eaa2656b6f6c5a355dc236779c5e423b29f55165943a3458dbac01ffda04b6"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66631.csv",
+      "bytes": 152655,
+      "sha256": "ca1f063b81164ac3a1644fb7ab838abb2efa1c45b58a645424bc876a91eb1366"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66743.csv",
+      "bytes": 143266,
+      "sha256": "c9c6de3151d38777bf6b3ffef779177c9c2d76716607416fdc5dc4e845d0ec7d"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66815.csv",
+      "bytes": 27355,
+      "sha256": "ed9e116d38e391c978ed249013fd605fdc12b2c8b4c8604db17ac057ca52a2ff"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66872.csv",
+      "bytes": 150382,
+      "sha256": "193e3c8f2870b1fa0522040f588e29ca5f1e12ceee7098db52d3a77eb8cd3fbd"
+    },
+    {
+      "path": "real_op\\dataset_real_op_66995.csv",
+      "bytes": 152654,
+      "sha256": "3e285e0643ac69c9cea5cd7b2a1a572159ac3bdb71152c44f7197ba8133d7cf8"
+    },
+    {
+      "path": "real_op\\dataset_real_op_67117.csv",
+      "bytes": 142970,
+      "sha256": "4bc336783de7201a9ca4754c1285d8409a64d3bb595844517c0b00d3662e9114"
+    },
+    {
+      "path": "real_op\\dataset_real_op_67246.csv",
+      "bytes": 125744,
+      "sha256": "9c6e4e55546a01e53e22f351d53a2612b1e2ad3bfc115e6df67b614b389a90a8"
+    },
+    {
+      "path": "real_op\\dataset_real_op_67373.csv",
+      "bytes": 148450,
+      "sha256": "454ce2399853b627a9d5c5fa488616fb0d00c8594e03940d6a79d4062f6832bf"
+    },
+    {
+      "path": "real_op\\dataset_real_op_67999.csv",
+      "bytes": 130445,
+      "sha256": "110f0d7cba4e3affcd8bf79f266444eac5c9d373cd451c9c207a1ea458154b23"
+    },
+    {
+      "path": "real_op\\dataset_real_op_68317.csv",
+      "bytes": 41863,
+      "sha256": "0f71582ba5e4bb0031fa694d9ddf036e4036c5d68570e941231b8cd012299001"
+    },
+    {
+      "path": "real_op\\dataset_real_op_68628.csv",
+      "bytes": 144015,
+      "sha256": "4d3edff2981d8c79261619c0ba49df29da7722083bf7830de0800994c0142ef3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_68785.csv",
+      "bytes": 142780,
+      "sha256": "52e5ecbda456f4d998c01312a3fa62e88f2728e26db90d9dfaa151377a8717b0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_68846.csv",
+      "bytes": 121447,
+      "sha256": "062687477863e3d02689898813c0a699ad081b8ab5272505fae747bf2c529b2a"
+    },
+    {
+      "path": "real_op\\dataset_real_op_69666.csv",
+      "bytes": 100835,
+      "sha256": "39f8ab81890549647ad21cfc3900302692a56792f512b515362877f4369e8065"
+    },
+    {
+      "path": "real_op\\dataset_real_op_69775.csv",
+      "bytes": 164836,
+      "sha256": "3cd6073b0f06a76928b0c00c47159b06668e3e042f398b00eb4acf6982cd078b"
+    },
+    {
+      "path": "real_op\\dataset_real_op_70570.csv",
+      "bytes": 157758,
+      "sha256": "a3973d58b4ca594d11d3b0bbb71a897d9328d993e4412d1709d41cbd346d19c7"
+    },
+    {
+      "path": "real_op\\dataset_real_op_70681.csv",
+      "bytes": 174895,
+      "sha256": "e8a3c315f913f373b4dba9dbb286f82ac1ca67747108d9505f8804802d866e02"
+    },
+    {
+      "path": "real_op\\dataset_real_op_71877.csv",
+      "bytes": 126339,
+      "sha256": "3e473f5c81f815f1bab421ffe13b9b53ce307730fed6ca4d654adc7ff26a5528"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72005.csv",
+      "bytes": 119914,
+      "sha256": "f1cacae0d67e0ec99d799b8b6cb743636b2c2483a426cc1fc96b0a0ae39958e3"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72101.csv",
+      "bytes": 120529,
+      "sha256": "795a57cf59cc9d0417fa4499414ae71cf38eedfcaa42c148d4c07f9c0da99aa7"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72157.csv",
+      "bytes": 119489,
+      "sha256": "f8490be7332af252bb669efce810422f7d0166d5320ff0199c0c1451ec10bd76"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72375.csv",
+      "bytes": 111862,
+      "sha256": "4770a2cad95449518ffa673671ba582ee5b7a16581463d195f1c1af351b138b0"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72551.csv",
+      "bytes": 132491,
+      "sha256": "f079afd3b540780e2c99eb7bd2c7c5ace1ca918ad15404e252cd85616ef0242e"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72595.csv",
+      "bytes": 130922,
+      "sha256": "29c53fcadffdef8553932901566464e74af7782eaf8770c273851678147555d5"
+    },
+    {
+      "path": "real_op\\dataset_real_op_72825.csv",
+      "bytes": 163642,
+      "sha256": "e073c5e9608e3c8e6f46a9c6ad857e48ecb8e3b6190e3fc755d0479c637ba6ec"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\coolant_edges.csv",
+      "bytes": 1244,
+      "sha256": "360bf5d58767d58bf4e05f0dc2b989766783f59f980e6bcfc121cb2d27e511f1"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\coolant_expert_graph.gml",
+      "bytes": 7872,
+      "sha256": "233749aeb873b4a35e28aa5fc9a4b548c35986531c9b7ef9c47a9ab88de53e13"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\coolant_expert_graph.html",
+      "bytes": 135163,
+      "sha256": "c3052d765b98a98a3cbc5ce1108ee50981019d867f238f05145bd7f14da1787f"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\coolant_nodes.csv",
+      "bytes": 2090,
+      "sha256": "8e452c1dbb643b3cf11f1b3e964593c508f34e480650d72ae18b3c7601ba13a2"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\hydraulics_edges.csv",
+      "bytes": 3010,
+      "sha256": "057699d28c6fd86b99deaf2547789ecf9a1fde354eca1a67572f2b6d79952bee"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\hydraulics_expert_graph.gml",
+      "bytes": 12115,
+      "sha256": "94d1f680c8cf959d02b6f09d20633b35d7703464fe1489297d0588baa87f32cf"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\hydraulics_expert_graph.html",
+      "bytes": 138897,
+      "sha256": "25b9ce35013237cbbe0f95a5435d5fa7fdf999f378317d74af1f5e4bdc94d0a9"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\hydraulics_nodes.csv",
+      "bytes": 2370,
+      "sha256": "50b4f32f217f1f7abdf9af395b9634c64bf70923f6e516ccfb16e91943abc735"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\probe_edges.csv",
+      "bytes": 2944,
+      "sha256": "d6bb6f97e06917d07b1ca13a489f39048dbef5ac69453176e74464d0b5d7f096"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\probe_expert_graph.gml",
+      "bytes": 9479,
+      "sha256": "1854a6e3d83ddbf1280ec0dac3cca2ad3cd5cd78275f032d32aacde0cebbb453"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\probe_expert_graph.html",
+      "bytes": 136466,
+      "sha256": "0ed8a81a69767f0187a3d4bd2974df7c9c7270f6b99f030ec51b74c18560df80"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\probe_nodes.csv",
+      "bytes": 1655,
+      "sha256": "8cffc622c0feed9ae525985c7a0e4ccf302ac8f2d1f5ebdcf2a93374d3438762"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\exp_1_description.json",
+      "bytes": 1169,
+      "sha256": "24fbca231bdcd0d970740c12a034d0f91fcf9efbb63d1afe446afd42eda421d9"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\exp_2_3_description.json",
+      "bytes": 1191,
+      "sha256": "66b8ae3e7a261c1433c6ae5d72fb51d126ddf6e42a109a48cbb706db442bcfd7"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\exp_4_description.json",
+      "bytes": 1017,
+      "sha256": "1d75a32e7fd50802da2394181a52148a4e6a3ca73ab1461893f33097b1dd1023"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\exp_5_description.json",
+      "bytes": 1018,
+      "sha256": "ff37763e4c8a19b563deadb112892afe5c3ca7ce1efc662d8046304cb1cc18e3"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\exp_6_description.json",
+      "bytes": 1052,
+      "sha256": "bb472e47e0dee93a9ace13d912b330a13faf64ecba2233b3a2122840196535b3"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\exp_7_description.json",
+      "bytes": 1027,
+      "sha256": "8053ffb2221ed7ed2cb411cc6dc5ab22bb134eca9a12ff942d37238ebd18431a"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_1\\causes.json",
+      "bytes": 161,
+      "sha256": "96b4bb1814973ecf638c71c85bb080ef943002c41fa49e061dcd78275ce1bdf1"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_1\\faultDataset_probe_exp7_run_1.csv",
+      "bytes": 39013,
+      "sha256": "bd84e854c492fcad78a564e403c5cab61182ac0f638c93ee1e8b5d2563d3bdd2"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "c244822012f6bf999c63aa99ec5cf0b562ba77e598fecba93c02cd9607088201"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_2\\faultDataset_probe_exp7_run_2.csv",
+      "bytes": 31501,
+      "sha256": "d4698c5902e9d9c407845d699ade28192d6ec041a784ac0fc6f1f716689f4892"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_3\\causes.json",
+      "bytes": 158,
+      "sha256": "8e3aef4ba9c1974e4f8a681db66a0471cdf8d32da70b416959092a88e8e8b1c5"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_3\\faultDataset_probe_exp7_run_3.csv",
+      "bytes": 31923,
+      "sha256": "5c87503c667bdf2542e7258a0e971d42cdd58420e7a224c671ddb16bd225477a"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "8cc58ab00aaf5dc211ffc441558a6007e6606a30463c08458b5356387400c098"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_4\\faultDataset_probe_exp7_run_4.csv",
+      "bytes": 35202,
+      "sha256": "5af22d3f7ee6702a5c9f2c1f67100e41f7c7e2ecde0d3477b6cb26c13c80057d"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_5\\causes.json",
+      "bytes": 160,
+      "sha256": "76ebaca192a1c40ff48f8e01885a253e6197dfe661f067eb09ed6407a262e530"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_7\\run_5\\faultDataset_probe_exp7_run_5.csv",
+      "bytes": 33367,
+      "sha256": "7d9a3388a4627439250522bf232a3570937c6475234f6b2a5840d8ebb1c14010"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_1\\causes.json",
+      "bytes": 159,
+      "sha256": "349a1c9ba7bc9cc678d3cbd9102bc0d00ff5ab78cdacf707071e6113d9200bb6"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_1\\faultDataset_probe_exp6_run_1.csv",
+      "bytes": 28524,
+      "sha256": "68b0d65c1c850b68347b1c2bd1ad3fe73177975a9d2f4564dd571b35096f1a32"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "a62e5cbf5bbeccad47f1e84ca52baa9fcbcc4d6a882fe51c74a050b2fc2734d4"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_2\\faultDataset_probe_exp6_run_2.csv",
+      "bytes": 25699,
+      "sha256": "b5566331f82df3a4399f8d8802dbfd710f48bfe106c0c1bd5447e46add4f8337"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_3\\causes.json",
+      "bytes": 159,
+      "sha256": "a7cd5ea7f6145a4a6aefdf5053206883bc5f7a10d20e3dda710fb8cf0f3b299e"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_6\\run_3\\faultDataset_probe_exp6_run_3.csv",
+      "bytes": 27434,
+      "sha256": "e702c726dbf3ff6a16e1dee418a251c70e7580481fb0412bfd643bdddf93f056"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "582f1b511c6eeebf501d841e0ae55d8f955cf66f8f1b9cccdd1eb08ac1df0e05"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_1\\faultDataset_probe_exp5_run_1.csv",
+      "bytes": 29348,
+      "sha256": "f25196ceaf28c97939097b5958eb101c66484a1a0e1a1f42ad1d4b4f4e928724"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_2\\causes.json",
+      "bytes": 159,
+      "sha256": "55052045d3089f48950c924e9c7d923250e771ada8539884d9b29da78b31c848"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_2\\faultDataset_probe_exp5_run_2.csv",
+      "bytes": 25517,
+      "sha256": "64926ff0ae1f50bda9990b0193b2a292de1aab44c413046b10a45240de82ba0c"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "13fc3969b69c9a645090c343f008fb4aa6c11904977dfe318bff5eff0b5b9527"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_3\\faultDataset_probe_exp5_run_3.csv",
+      "bytes": 25605,
+      "sha256": "6accc66309c1de86d4e01b65cb1be65c1d1e7999df15884de77f52b1f9678474"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_4\\causes.json",
+      "bytes": 159,
+      "sha256": "090625994ad1e93c3455d7b4db0ebb688c7ab1458829d29c580b14796c6df01d"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_4\\faultDataset_probe_exp5_run_4.csv",
+      "bytes": 27826,
+      "sha256": "e948cb7833c50846519deafd64832d366ba93a639242da13bc2484acf51e8ed0"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_5\\causes.json",
+      "bytes": 160,
+      "sha256": "9eb8e07b4071159529c0f9644fe96259a2fc1758bc4c86b41980da2644f6e221"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_5\\faultDataset_probe_exp5_run_5.csv",
+      "bytes": 37847,
+      "sha256": "49379c0f4cc501f87fd09385f24c01f00db714053709402078a39df6c8043981"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_6\\causes.json",
+      "bytes": 159,
+      "sha256": "0977ad2b70f0872427c89d82120c17dabf9926f8678a7de35dda3f61f6d684f6"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_5\\run_6\\faultDataset_probe_exp5_run_6.csv",
+      "bytes": 35662,
+      "sha256": "3c00f16b0ec6099536b209c0553a16a1d98d35a0b6c0b00c1571e2f60ee51250"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_1\\causes.json",
+      "bytes": 158,
+      "sha256": "a573750276f4a414bc3420857ad83a609c2f122c9cf6a1858d6a7c31a7ed8515"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_1\\faultDataset_probe_exp4_run_1.csv",
+      "bytes": 34749,
+      "sha256": "7a4233e510fbb9113f7c1444605db226d7e38665ebc9d6ad53ca515e40dac4bb"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "13ca5935c242bf8a2291b78c76236a7bfb22e40d8a7eb5260f6d83e417f769ca"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_2\\faultDataset_probe_exp4_run_2.csv",
+      "bytes": 42081,
+      "sha256": "8d398eb5a579a22d9af7293d2705c8b4c0ac61488d2a2c66233189a2f4ff5eab"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_3\\causes.json",
+      "bytes": 158,
+      "sha256": "a8c7c9d0a5f389517285df7bb147aec900418ce7ad6a942c58acf83a6fbc663a"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_3\\faultDataset_probe_exp4_run_3.csv",
+      "bytes": 42732,
+      "sha256": "4236a668b55bcb8f9b0bc7566f683c0b84f9d1ab04743fad6058be76a92e6a4d"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "8dddb7c80ef5836183bcd0831509678f746452e46cf03084888efc76fa63c379"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_4\\faultDataset_probe_exp4_run_4.csv",
+      "bytes": 48207,
+      "sha256": "e5b7c484643069dc5807ec0c6f984749886c37bab0cc2f102b79b90ad11d3a92"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "0a3f965d6eb70c15ec545ccaaf70c8d1aad7514638ce4e67f5f5c45ef61e9af3"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_5\\faultDataset_probe_exp4_run_5.csv",
+      "bytes": 45583,
+      "sha256": "c442a4180a1d57b91b9f86d8bd6734376829ab7f7338bbeb2d14e767e82830e7"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_6\\causes.json",
+      "bytes": 161,
+      "sha256": "60e533a3e727ae03b592b09e0fecf2415a76630ae3a71b5636ce929c67a84684"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_4\\run_6\\faultDataset_probe_exp4_run_6.csv",
+      "bytes": 43226,
+      "sha256": "4817d384aeae9b3c29e37bb66a4adb56a84901bc084c25a43daceca07077b06a"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_1\\causes.json",
+      "bytes": 161,
+      "sha256": "96b4bb1814973ecf638c71c85bb080ef943002c41fa49e061dcd78275ce1bdf1"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_1\\faultDataset_probe_exp2_run_1.csv",
+      "bytes": 39013,
+      "sha256": "3f206ce26621e6fa467eb0e5a77768fbf28f3f285b7ccff7d0981f0eae7696b0"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "05c3cb57238f5a4e59e5c427755377959f4c9560515936e5ddf1aec78240cc44"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_2\\faultDataset_probe_exp2_run_2.csv",
+      "bytes": 34520,
+      "sha256": "d24847f0a3abf6a54c93bd7d611185eaf7697434b2552c7c44b13a6d2c9ed9ca"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "ee2f22944608f8bf661241a47ff5d29dbfc2826214a6a2800c7495e4e0ee9e35"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_3\\faultDataset_probe_exp2_run_3.csv",
+      "bytes": 37182,
+      "sha256": "7bc6b8f97385676189253554b83e12c0a2ec58e142d8a2407fd4b719511cfe9b"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "b3741d193b4779ce5b9b227d0b75ff7c723431345ff7455cbb422a6b5db22cb6"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_4\\faultDataset_probe_exp2_run_4.csv",
+      "bytes": 31624,
+      "sha256": "24a5617fd01cb6eca0ec3d2feb35efa7f82c922b46d16b9ea718d0cd690ca7da"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_5\\causes.json",
+      "bytes": 160,
+      "sha256": "8f14f938b50d11046c121febe86576d07c92801b9b4c51410da9061089dc2fc0"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_5\\faultDataset_probe_exp2_run_5.csv",
+      "bytes": 46532,
+      "sha256": "ae1feb6bbf6e1f5e7b89af06fb51044136b111ba66b0a0359bb08c95204e33b5"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_6\\causes.json",
+      "bytes": 161,
+      "sha256": "03556975b0a3a91a9c180150b99ba6b529ca92d97c93cbb69ba29775fe344786"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_6\\faultDataset_probe_exp2_run_6.csv",
+      "bytes": 42796,
+      "sha256": "3c933146f1d028b0ac1d253d6e8e7a080debc29567bc5faf626465a52a183348"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_7\\causes.json",
+      "bytes": 158,
+      "sha256": "629e79ab305f4a541b8f323c57963ba539ffd53936278de400743a4999058601"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_7\\faultDataset_probe_exp2_run_7.csv",
+      "bytes": 25464,
+      "sha256": "f22201be2d9714a50d154a1dc36a442edeef63fdf0a1a9e00eeaec71a93d7337"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_8\\causes.json",
+      "bytes": 161,
+      "sha256": "6456b524757b4b28a86055cf7c33710f8f654f9edd709b9748afb95975b8c07d"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_2_3\\run_8\\faultDataset_probe_exp2_run_8.csv",
+      "bytes": 42612,
+      "sha256": "cce4bb5ac66b9ec8dbcbec433898346ac98c6c55210bcdac11df8a677b61d73f"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "71b31ec6681018f4e14e0385118b96931f5a493e41c92cde673b4979d1dfeaf0"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_1\\faultDataset_probe_exp1_run_1.csv",
+      "bytes": 33948,
+      "sha256": "125bcfa5d234c474f6bbe5182d0891512eb3165fa9cd96af90de4652919450e1"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "7ec8cd974f39ff9a05ca0e7d53bb4ce1091f93a54b0750d388c7cea217a31ea4"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_2\\faultDataset_probe_exp1_run_2.csv",
+      "bytes": 38829,
+      "sha256": "417142845025c7f3fd17bb0813d2953fba650507e043d81c6f5ff38f9c36da50"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "a62e5cbf5bbeccad47f1e84ca52baa9fcbcc4d6a882fe51c74a050b2fc2734d4"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_3\\faultDataset_probe_exp1_run_3.csv",
+      "bytes": 25698,
+      "sha256": "f87a77daa6e796591bf3e8bc942980041bb605d5d0a033e32864adb0c403ac5d"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_4\\causes.json",
+      "bytes": 159,
+      "sha256": "df382e54af68ce273fbc9d00cbc48ac00bb39ea58910a4f7092c288977ff4008"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_4\\faultDataset_probe_exp1_run_4.csv",
+      "bytes": 32800,
+      "sha256": "1ef1fe19eb9ffbd59f97e8042cdaae714e52b5e8a5d8b6246dc1dba82a0de488"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_5\\causes.json",
+      "bytes": 159,
+      "sha256": "919f67ed2676d849141efc947c062a7195db58cb0ee9b34b4a32c582ec0518c7"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_5\\faultDataset_probe_exp1_run_5.csv",
+      "bytes": 34969,
+      "sha256": "dfaa90602425e74685d526b086a4725e7deebeaa03d3030f8434839a870738b3"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_6\\causes.json",
+      "bytes": 160,
+      "sha256": "974072d9db404cce51d8d72dab0a97d37656170fe19c723fa4946454aa949175"
+    },
+    {
+      "path": "dig_twin\\exp_probe\\exp_1\\run_6\\faultDataset_probe_exp1_run_6.csv",
+      "bytes": 38555,
+      "sha256": "107d750f2872c9b374db42fe7c664ff453c4e7b19b7a8bf289c656aee5efbf81"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\exp_10_description.json",
+      "bytes": 888,
+      "sha256": "bc5b81ab1b2ea92bf0e30e90dec741d0cb44638f06426f18f6a9f9c45f585a10"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\exp_12_description.json",
+      "bytes": 782,
+      "sha256": "75969a7efa24780e22a5fed9a260b35be2ee8c9005b39a714e705d17572f6db3"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\exp_13_description.json",
+      "bytes": 618,
+      "sha256": "f5a6b1fd03697bbc5f41c8f318bf79180c35049462f2bdb3c83e74cd7c7668c2"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\exp_14_description.json",
+      "bytes": 991,
+      "sha256": "72a843bb05e7436d5e40df87ae9b5bf08c6035d9e98fcd75749812a8ac02e61f"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\exp_15_description.json",
+      "bytes": 1486,
+      "sha256": "c9555575616105caac8a7d6b4c0982d3a1411e576ab5c1693195c62159c76d82"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\exp_18_description.json",
+      "bytes": 1082,
+      "sha256": "f5ee069178715f694ad90d4cf972a380e13bdbdbac66163f7107baa0ee160d3e"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\exp_20_description.json",
+      "bytes": 981,
+      "sha256": "cf31ee9cf5062128a701ab53b920ccee740f6db164032fa73c670b1539ada57c"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\exp_8_description.json",
+      "bytes": 690,
+      "sha256": "c407724fee565cee234c8f700c50f50eb7ca7fefc3ab5f726baa1b8b2f4be4e6"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\exp_9_description.json",
+      "bytes": 946,
+      "sha256": "11281d28acaa4dca18138985d92f2e85205c2434b0c756d207891156a4fddbef"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "469c99ed5b34679940d359270ffadf1ce41c1450db8adc0065c2b4f566411020"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_1\\faultDataset_hydraulics_exp9_run_1.csv",
+      "bytes": 38365,
+      "sha256": "f0ab5d01e0ee7a22f515ae97a0a75a9b81da71aed2bb70cc9cfd8a3d48ac33e1"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "60bf9d00ff8fce28b8dbcc222c96c61898356a7031cad68f037820dc186feaa3"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_2\\faultDataset_hydraulics_exp9_run_2.csv",
+      "bytes": 41821,
+      "sha256": "d4ca34432bb1cd3f66ed17385ded116164ad92e09c14e033a39a20264bc1fbf7"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "b77deb52ff4c0918cae67b42f180425589842f30ae650d0b3b37c888b3b5e2ba"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_3\\faultDataset_hydraulics_exp9_run_3.csv",
+      "bytes": 44604,
+      "sha256": "4a20b905e4dbb8203bf19a83339f3f61ca41489a86b6325ac53d91cfa05c7b48"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "23efa408868be20a353c68a851d0a67871f602e2ad4a83d22e5a998cbda6e52d"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_4\\faultDataset_hydraulics_exp9_run_4.csv",
+      "bytes": 43889,
+      "sha256": "db5fd4d8d0b960044e2ea5cb45b6658f5271328af0368c59e22f73320bcfc984"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "3b3180d23fce74684ff500299df9d7a40763e9a8c6aef8e3f9eb8173ef4e500a"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_9\\run_5\\faultDataset_hydraulics_exp9_run_5.csv",
+      "bytes": 40749,
+      "sha256": "b81308076f5571dba68ea4c43656854df4f1a65f96737b77d21a6af97c41d4e1"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_1\\causes.json",
+      "bytes": 161,
+      "sha256": "0f385fcf3716d27f5d8fa1884bb55cf89160bde2a9fd04f8cf6c6ff7e84caa96"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_1\\faultDataset_hydraulics_exp8_run_1.csv",
+      "bytes": 45607,
+      "sha256": "21f139b913d59cc952eaf1b2aab8d671ca2319a4ef15f592e40e08329b4d7e84"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_2\\causes.json",
+      "bytes": 157,
+      "sha256": "c231812d4102203834fde8f0c1f29e1fb53af5118e09e01b947f301453fdd323"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_2\\faultDataset_hydraulics_exp8_run_2.csv",
+      "bytes": 40831,
+      "sha256": "c58e43df11f1d101d0e147814d04b1a9b2d7dea07f56dd6ed658c6074f25c753"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "a20dd80a7fcbac73daa02cae3a6dbfefa9c57319f9fc7da2b824c7d26eaa11a8"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_3\\faultDataset_hydraulics_exp8_run_3.csv",
+      "bytes": 44906,
+      "sha256": "f031abf2d8e4b6811a922d200633bbd5a9c4d09b0a6c57891bf75bc857653441"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "5228417f74d6bc74ec421a9f2f8fec60ae37ba7d7ffe2c01c6ac69e4314dfb71"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_4\\faultDataset_hydraulics_exp8_run_4.csv",
+      "bytes": 46363,
+      "sha256": "7b1bb51dce5b497ae187ebb7cfb1756770f3743f2bd8c8dceacf7439166dd392"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "b2ace37073d9e014b39a8edf282939cf8c1a4b50ede70c0e28c53ee4fcb56f20"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_8\\run_5\\faultDataset_hydraulics_exp8_run_5.csv",
+      "bytes": 47215,
+      "sha256": "d51cebdbe5e990b6526863675082814d4cb1862b81ab85a354b418915bd178db"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_1\\causes.json",
+      "bytes": 159,
+      "sha256": "bee36c87e018d4ebfc012eb3e16e798daa5b498876501ea2dadcb620c06a337e"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_1\\faultDataset_hydraulics_exp20_run_1.csv",
+      "bytes": 41608,
+      "sha256": "f0024c020811f9f04ef8cdbdd5ad6e102aa680ff425f384fcc52bdd2c73e066d"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "1a18f94c18c40bf2e7ee25707ab5977087c0cbbdc4442273bdd418811359fdb9"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_2\\faultDataset_hydraulics_exp20_run_2.csv",
+      "bytes": 36136,
+      "sha256": "ae63aba44f4154aab148cfdb483e8c119c364113e99c3083eb528a9f0a8d054d"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "7e7df8238753896bc48e6c863705414f1d05e73d616756057784a65a47d83d89"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_20\\run_3\\faultDataset_hydraulics_exp20_run_3.csv",
+      "bytes": 45099,
+      "sha256": "0d8e6f98180ade9d2b63765a048d07d0b6c1837b31fa5dc999176205db8f40e8"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_1\\causes.json",
+      "bytes": 158,
+      "sha256": "2711142ffc9ddbd9168983958abad9c3395e4ee400a459aa1725dd881bc27c2c"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_1\\faultDataset_hydraulics_exp18_run_1.csv",
+      "bytes": 32607,
+      "sha256": "1f709834d86f5b118ecb7f1d70344f21f7bc6757a7492469ad95f01cc2b4b240"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "60ef7425566455a1c70bd7d362ecfb3860874d60524ebc44abaf67ce42aa436c"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_2\\faultDataset_hydraulics_exp18_run_2.csv",
+      "bytes": 44197,
+      "sha256": "20985516016fedd2636ddae2fca29b821c9c3cebf603c1a91a11f809e7285469"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "55516912704503ea75608be5417fbeea95101155810f051c92600c2b58e4ff03"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_3\\faultDataset_hydraulics_exp18_run_3.csv",
+      "bytes": 38952,
+      "sha256": "cb8e4577add12ae47fb5277b41344ff8f3aa7b5a84243ca8d4d4ddca54b45a8b"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "4852bc661cccd29b2a8882edb1be1d1dce874bad23032b12699104fa32422e85"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_4\\faultDataset_hydraulics_exp18_run_4.csv",
+      "bytes": 49526,
+      "sha256": "94eb91b2d2189cb60cc36bd55508825c9ef0a2bf9b3cc42cfd964ffd69893f14"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_5\\causes.json",
+      "bytes": 159,
+      "sha256": "92a6222b7b9021fe7f0c268a702f3e79384206e5b63a47468fcf830d03e63ee8"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_18\\run_5\\faultDataset_hydraulics_exp18_run_5.csv",
+      "bytes": 48743,
+      "sha256": "e7041955184e72147957fd191ed8e38d5fe9f917ce5fc2201bd3de57888f59c7"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "f7fbc955c81c39fab57df7e7714f20983e0316661c47e0b08cb00c415ad92695"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_1\\faultDataset_hydraulics_exp15_run_1.csv",
+      "bytes": 43517,
+      "sha256": "4d762683dd99e6d438f67ef6d9b98f2018da5ff7e622617ede1f99a512c954bf"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "4f4c62bb452b25f90cb7cda9ef1b9fdd0476f1ca981179d86b17648911125104"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_2\\faultDataset_hydraulics_exp15_run_2.csv",
+      "bytes": 37337,
+      "sha256": "beab2a5730400fd21448189407dec7d5a278a7d4d11ee34d4d5b05cff9322445"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "1e55014fa5b98f99b1b7b3549549b82fd4977ce29fd4c465e0793e6be0d37ddb"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_3\\faultDataset_hydraulics_exp15_run_3.csv",
+      "bytes": 43527,
+      "sha256": "406df1ac0fc3d3638c964a6c865026c58ce905bfc31ce2c8d185c862bbf0fa5f"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "6d35e473f84dbce0c24b4016cc957cc8caf6225c37b8b1885c1feab02dd56179"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_4\\faultDataset_hydraulics_exp15_run_4.csv",
+      "bytes": 39548,
+      "sha256": "a3e74bb629bc406225e521f279cd473cfa7a537e527650e4cf41fd36b0a34bdf"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "154b6e70aa71843a76300d1ccc160961711593c28d8e2afbd4293d890fde033c"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_15\\run_5\\faultDataset_hydraulics_exp15_run_5.csv",
+      "bytes": 40222,
+      "sha256": "713ced8f999c7bf17cccd95bb21219a79bd7c7867733991ff4d91ac0ff197f81"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "5c18a3eb8d528412d865a08e05d63294a14bfc3ec1a984698e754874e409f921"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_1\\faultDataset_hydraulics_exp14_run_1.csv",
+      "bytes": 39703,
+      "sha256": "7ff7248169471d20ddb645161b9497d434771dc99db317e282e940c88630c0fb"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "9b824f960a75fe0bcdc4afa077c8bf35a4e8fb1c3f275b8448dee748460c58d2"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_2\\faultDataset_hydraulics_exp14_run_2.csv",
+      "bytes": 44471,
+      "sha256": "2df1b7ad8f0793da41be56b52af41c19f15f3a15420b77ddd588626a17a0c449"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "0a1772183e6d25f3a854f7f163f656e9914466ba314a0822de16a524a9d37fe5"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_3\\faultDataset_hydraulics_exp14_run_3.csv",
+      "bytes": 40701,
+      "sha256": "d42f7e2c125c3aacbc1b7e932c60a1a64a293d26148e0a12b980d4271e43cc97"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_4\\causes.json",
+      "bytes": 159,
+      "sha256": "e42409a5d49f0a6782352e6ab0d5371a3c9c3be346b74c8e0e2a556059643d81"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_14\\run_4\\faultDataset_hydraulics_exp14_run_4.csv",
+      "bytes": 40754,
+      "sha256": "93c13e40e6bab5e1862335375abf8a7078f06fee5be84d66ad146030927c75b1"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_1\\causes.json",
+      "bytes": 159,
+      "sha256": "fce33fea624683464a90b6af042a2e7b65ceac6252fc148153e7b45781611016"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_1\\faultDataset_hydraulics_exp13_run_1.csv",
+      "bytes": 40663,
+      "sha256": "31f98d505b94ddf1b24ff4e4d4700fc08e2176ac8bfc304243771c373bf6a292"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_2\\causes.json",
+      "bytes": 158,
+      "sha256": "475d1f9a501ee78360efd23702bb028dd7d3fe0037628fdf356314e19df847c5"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_2\\faultDataset_hydraulics_exp13_run_2.csv",
+      "bytes": 36034,
+      "sha256": "ca08ffab370c25e8fc0b7e216fcf164dcac16ec80e571d6d7e8261ca407f5e3e"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_3\\causes.json",
+      "bytes": 159,
+      "sha256": "cfd396fd8dd38cff427a67f74115e018da045d07076d41e0f5e43d4da0dde976"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_3\\faultDataset_hydraulics_exp13_run_3.csv",
+      "bytes": 38738,
+      "sha256": "bda0c4c88a56cd7442b7fd15f68cb1c20fdfe4f55c1c7d80f95909b677fc1636"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "54f17386d14aadd1ea1ba77123d02e552bd2cc7044a20a7b423c1b4e7e945cb1"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_13\\run_4\\faultDataset_hydraulics_exp13_run_4.csv",
+      "bytes": 43810,
+      "sha256": "415df380549c47be01bef83b1668307c15413a49511e2e0c0f2a71b5974fbbb7"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "c87ff38afd30f9ec7192a763d73640f1840b54ec4c132943051c82a1554431ea"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_1\\faultDataset_hydraulics_exp12_run_1.csv",
+      "bytes": 41158,
+      "sha256": "2b43a2712cde0e3a0cd0bcfcc2f30484c8b28184c5702c7b565cc1083c951ee8"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "8b471bf7adb0d6ea0d58b2cf45850a163fe7f2ded8a7390d734f2d1fef67e3f1"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_2\\faultDataset_hydraulics_exp12_run_2.csv",
+      "bytes": 40244,
+      "sha256": "3dfdf78531688781664760007fa45fb9177f1e011de18263d8926199d6d25a74"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "a6f9dadf3533a4407cf5434359516286288a04e271729b8b39bff633c1dca388"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_3\\faultDataset_hydraulics_exp12_run_3.csv",
+      "bytes": 38993,
+      "sha256": "f5f0936f3c4f34537b3d5242341e2e6af9c353fdc7108cbb3626e91da702718a"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "b6084a4dd12fb0b9e2125fa15f5ca94fc76b4ef3a1bce40a4d2d9e36dd7147d2"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_4\\faultDataset_hydraulics_exp12_run_4.csv",
+      "bytes": 45381,
+      "sha256": "60a099314e6de362c5c259ffb8f1c9d8e2f4c996f7e4bc9ebcace9c72442b85e"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_5\\causes.json",
+      "bytes": 159,
+      "sha256": "d5dbaa3ec874dcd141b7bf22ab614c1803a204b8b4f134f32bf7c222215e385f"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_12\\run_5\\faultDataset_hydraulics_exp12_run_5.csv",
+      "bytes": 40201,
+      "sha256": "4d4c30eaaf0c3eb87827778198de9914de248a279ecdaeae8df952f726f91820"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_1\\causes.json",
+      "bytes": 160,
+      "sha256": "d08fd7331b4bf87b2630b22d1110aca804b8b0d221ed10accf979aece336a76a"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_1\\faultDataset_hydraulics_exp10_run_1.csv",
+      "bytes": 49610,
+      "sha256": "8ac70ed2d9f30874d39896578d430791e49d2ad67e80aeb24153515a4f9da492"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_2\\causes.json",
+      "bytes": 160,
+      "sha256": "92b788f30120178ee7f0f64381b4a96e2b54bc86e36586248b6428ed97356a12"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_2\\faultDataset_hydraulics_exp10_run_2.csv",
+      "bytes": 41937,
+      "sha256": "c84c3584ba320db896c94baffc35e3371675045870cc2eb9ef57fb0a0e5ba4ac"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "b5e7b338b5571bf790b082d43e922fc7aaf7d2b3acb60a472463e2af81fc1e39"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_3\\faultDataset_hydraulics_exp10_run_3.csv",
+      "bytes": 47452,
+      "sha256": "ddee4e7827bc607f8f5b8841f37259fc5d27c83773ff14c0324e32f78f7dc2f0"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "0ba0a4054c5921d7a43c39db573bc59d67de1a8e429ac8425bd08aca0078adcf"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_4\\faultDataset_hydraulics_exp10_run_4.csv",
+      "bytes": 38297,
+      "sha256": "e419823f65e34658c8fd268dba0398bfa1729fc3e34d664a42071f5d3ceafb39"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_5\\causes.json",
+      "bytes": 160,
+      "sha256": "1049190aa1c937eef1c303233fd94bf043ccbe8010fe0c12f2de72b8cff9e342"
+    },
+    {
+      "path": "dig_twin\\exp_hydraulics\\exp_10\\run_5\\faultDataset_hydraulics_exp10_run_5.csv",
+      "bytes": 43203,
+      "sha256": "67e1d31dd456b4069eb9b4eaec3444380319a652e0a7aba98c6acafd9b3792d4"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\exp_22_description.json",
+      "bytes": 877,
+      "sha256": "dee79656790b8d1e67a1aa390ef06528e5b687c91cd24b154f79e54800db70b2"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\exp_27_description.json",
+      "bytes": 1157,
+      "sha256": "367eb4e7c0c68895b489ec7319f5cf1a37442aa8aabd226ae44c906da9b39579"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\exp_28_description.json",
+      "bytes": 1112,
+      "sha256": "d96ab4fe8c64a6271414355e1f78de893d95f737595fae7bd1a34f158141cd4a"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\exp_35_description.json",
+      "bytes": 927,
+      "sha256": "8cd3f850dcbea40b42dcf013cd6a0cadad2822cd860496216d57e0db6214e70d"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_1\\causes.json",
+      "bytes": 159,
+      "sha256": "2ca299308adc0c9ddf22a7998e86f65ede961d85b8030e9112b2913e9ff5714a"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_1\\faultDataset_coolant_exp35_run_1.csv",
+      "bytes": 47985,
+      "sha256": "cbb4439408c4978d72b32cbbd66ac8bbfffeaea35c3e47f7a437a1999829216d"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "b190121ca170321a09db9634cc4f6e8dbad30fae1540532b3302dcfcbd6826b0"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_2\\faultDataset_coolant_exp35_run_2.csv",
+      "bytes": 47539,
+      "sha256": "dab3bc9c89c487b14d5086c9a51dc24e24e3d3e78b22ebda15cfd88481f16585"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "b1c06cd0e67b4bc7cdf2023eee93ef3720babf964510a7e8c1053ba892d107e7"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_3\\faultDataset_coolant_exp35_run_3.csv",
+      "bytes": 43035,
+      "sha256": "de0c2acfabf5caf6c3f91d9641995418d41fe5ba2120cf81c88f379fb941bd9c"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "41c41c5891e49a5955bc3280350b93949a26c2b467a736ec9be9026dfdee43d8"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_4\\faultDataset_coolant_exp35_run_4.csv",
+      "bytes": 54510,
+      "sha256": "1c6ccffef201d527e4b9f6c2381daa56dc56d0f85049e29c89879175251138c9"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "c8dee2c1c504a5dc1fbadf2f060afe3c72ccc1df9f9961fdfb8f727b23126891"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_5\\faultDataset_coolant_exp35_run_5.csv",
+      "bytes": 42229,
+      "sha256": "607da061be22376a293f0eee5c350ad008a52da0ae51d6aefbae6fd2d04f5914"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_6\\causes.json",
+      "bytes": 160,
+      "sha256": "684bbe4f805f99c88a3063e3ec746d04926328daede0844967fcba2eb79ec293"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_35\\run_6\\faultDataset_coolant_exp35_run_6.csv",
+      "bytes": 47494,
+      "sha256": "7fcb6e90e0aad515573fafaea0e14e1c0482852c4ad63b422e53931658917006"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_1\\causes.json",
+      "bytes": 159,
+      "sha256": "02d334cb93e8f5b1e9991384589dc57d9fd234a8597a419307fbbbc5ff36444d"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_1\\faultDataset_coolant_exp28_run_1.csv",
+      "bytes": 42633,
+      "sha256": "3d071ab7380fc02e8284552c27e599d2b4978bef21bd526f0cb83dfd9493cd1e"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_2\\causes.json",
+      "bytes": 159,
+      "sha256": "12c0240114027fd2a5444f2fc0438b7a97c7ecb4f78e7904db5f69d106faab5d"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_2\\faultDataset_coolant_exp28_run_2.csv",
+      "bytes": 39981,
+      "sha256": "55a3854684caeeda2e8014d9f327f537110877075cb3c22605aa70ed369c74ab"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_3\\causes.json",
+      "bytes": 160,
+      "sha256": "76037f320d8e910ee6beeae3f901c849de1c7d7a8126e19b610f903db285768b"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_3\\faultDataset_coolant_exp28_run_3.csv",
+      "bytes": 49412,
+      "sha256": "cc8d72c549ed616c88c901899cb464432d6eeae08380f48b5d6746f3814e273a"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "2f1914770ed703ea913971587f7e44b1a163f9f87614db9ee2823a03ad508e5d"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_4\\faultDataset_coolant_exp28_run_4.csv",
+      "bytes": 41925,
+      "sha256": "5dc166bce54f7c62ddee34f8d38467677aac3c11719cbb8c12da0250a75bb206"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_5\\causes.json",
+      "bytes": 160,
+      "sha256": "978533f542e3320144239ad6afdf7f6cf37d40e79b5cd255b6f0f8924ec4bd41"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_5\\faultDataset_coolant_exp28_run_5.csv",
+      "bytes": 48632,
+      "sha256": "12b1814ba5172c70cd178c7495053e9050d46366048ef05afcb0ac09f14b5ee4"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_6\\causes.json",
+      "bytes": 160,
+      "sha256": "b4d0810a9a01f804cab23ed97942b09a8f232c8a3928280e6d2dc917359b63f3"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_28\\run_6\\faultDataset_coolant_exp28_run_6.csv",
+      "bytes": 43333,
+      "sha256": "c716c74c701cee9f01bdf5820a905515772b5e8236ad8c692c4273a5c33091b3"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_1\\causes.json",
+      "bytes": 161,
+      "sha256": "06cb113e85bfe7b092458a34828fbef6be27a9a8f922be255e5ca0a7b8b13ed9"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_1\\faultDataset_coolant_exp27_run_1.csv",
+      "bytes": 46686,
+      "sha256": "363076c5f67ddaedd7b3d9de63320d1fbb9fe679f1c5001627ffc79d222000d6"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "b436b497e969a16e6b7d429fc65e73aa9e2522a549adf2eddb5dfb906cc99604"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_2\\faultDataset_coolant_exp27_run_2.csv",
+      "bytes": 34403,
+      "sha256": "11056393c5f5deba6d62801a7ad7ddbd0977b43b258654440b24f96d0f5e6808"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "93c7086703714f6d1bb1bba3174af09f8b857f442c44fb0d54a2d65c93070fe2"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_3\\faultDataset_coolant_exp27_run_3.csv",
+      "bytes": 48431,
+      "sha256": "f2d2da1346d54c879d1706cdaa030e33592081dab8fd00b16d2a0cbbcbd587f5"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_4\\causes.json",
+      "bytes": 160,
+      "sha256": "a5e8b0391cc655335a72441f4006ea374244dbeac32c1a32a99f1502b984b566"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_4\\faultDataset_coolant_exp27_run_4.csv",
+      "bytes": 34459,
+      "sha256": "bda594bcbd27fa65b7bc60e62f9a76219a36caa1b4bf359b8659f73214bfd9d2"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "07c35a48f006679664cd4268adc013467478e6b64de9cfd9cc76330e421d4c32"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_5\\faultDataset_coolant_exp27_run_5.csv",
+      "bytes": 49286,
+      "sha256": "f5dea3233db0bda3d383466e13c6ae9d00e15e2942858ca4b4eb72c0b4a46bdf"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_6\\causes.json",
+      "bytes": 161,
+      "sha256": "e8f98bb25c5e4f260178082f974fc28256b3d9c7972ede6de186d419f6fc18f1"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_6\\faultDataset_coolant_exp27_run_6.csv",
+      "bytes": 40698,
+      "sha256": "586d46ca9400210860c461849f4548de4c3593de02e844cd1e7332e420da6ca3"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_7\\causes.json",
+      "bytes": 160,
+      "sha256": "044db9006ff370d73a48bd000da28d25e24de9f42a622488d2a139651dcef5fb"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_27\\run_7\\faultDataset_coolant_exp27_run_7.csv",
+      "bytes": 48120,
+      "sha256": "72bbab6d82f1fba0d1072542f8245279c7baee71b295ada201a10df487d2e0f6"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_1\\causes.json",
+      "bytes": 161,
+      "sha256": "8edd61412b76d4773ac13b59cf799d07700bc26d9d73d40b3ef3bbc540c752e4"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_1\\faultDataset_coolant_exp22_run_1.csv",
+      "bytes": 44191,
+      "sha256": "ea85fffb5054982ddd910222e3a8d8521540064cc9387d450d667b84d4d50e99"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_2\\causes.json",
+      "bytes": 161,
+      "sha256": "657b275cfbf77c117e564fac4a36e13696cb30e427dca602f9b2e9a35dae03dd"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_2\\faultDataset_coolant_exp22_run_2.csv",
+      "bytes": 40727,
+      "sha256": "31cb4a059a832ba3ef38a4dfece24d2d4b06243cb0a0d92010bcc01f89f5335f"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_3\\causes.json",
+      "bytes": 161,
+      "sha256": "f272a530e690dd132eeeccb4991e6bbb289f17cb606ae7006af3e40985446082"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_3\\faultDataset_coolant_exp22_run_3.csv",
+      "bytes": 42263,
+      "sha256": "533a6b22fb624c54da43c0a32fdd4cac880f5d38b92c895139f5e14c17d22a84"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_4\\causes.json",
+      "bytes": 161,
+      "sha256": "be19cff4423e2d73801de6d8cb6ae1b50eabb9c35cc9e014895286cb39a8664c"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_4\\faultDataset_coolant_exp22_run_4.csv",
+      "bytes": 38345,
+      "sha256": "dd18c098b55378702fb3e6f2a93bb504845a1178ec48c499cba4ed321c483925"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_5\\causes.json",
+      "bytes": 161,
+      "sha256": "dfced80ab4b6622ec4ae9205331ab42254a77c38b9259d146774d82d6cb5aed4"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_5\\faultDataset_coolant_exp22_run_5.csv",
+      "bytes": 42965,
+      "sha256": "af25a6b8bada53a452d77b0cbd7eb65b1893123b21afc66dbeb731e6bac1eaf4"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_6\\causes.json",
+      "bytes": 161,
+      "sha256": "98e5a16262aa292c9766c4031221ac9e527909ed6cee5b57979805a86855577b"
+    },
+    {
+      "path": "dig_twin\\exp_coolant\\exp_22\\run_6\\faultDataset_coolant_exp22_run_6.csv",
+      "bytes": 43930,
+      "sha256": "845e297ad9670a7cb2899743882542fa77ac27dee9fbce26427b9c164c43095d"
+    }
+  ],
+  "counts": {
+    ".csv": 278,
+    ".gml": 4,
+    ".html": 4,
+    ".json": 119,
+    ".md": 1
+  },
+  "total_files": 406
+}

@@ -1,0 +1,16 @@
+{
+  "upload_id": "bd82961ae09443f385420698a7a45cb4",
+  "filename": "dataset_causRCA.zip",
+  "dataset_root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\bd82961ae09443f385420698a7a45cb4\\extracted",
+  "validation": {
+    "root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\bd82961ae09443f385420698a7a45cb4\\extracted",
+    "normal_files": 170,
+    "fault_files": 100,
+    "schema": [
+      "node",
+      "time_s",
+      "type",
+      "value"
+    ]
+  }
+}

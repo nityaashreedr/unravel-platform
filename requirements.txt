@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+networkx
+pyarrow
+ruptures
+pytest
+fastapi
+uvicorn
+python-multipart
+httpx

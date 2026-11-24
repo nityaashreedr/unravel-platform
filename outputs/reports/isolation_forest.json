@@ -1,0 +1,4220 @@
+{
+  "normal_train_files": 133,
+  "normal_validation_files": 34,
+  "feature_count": 70,
+  "normal_validation": {
+    "rows": 47920,
+    "isolation_forest": {
+      "threshold": 0.6028901447656638,
+      "false_positive_count": 480,
+      "false_positive_rate": 0.01001669449081803
+    },
+    "robust_iqr": {
+      "threshold": 32399.999,
+      "false_positive_count": 623,
+      "false_positive_rate": 0.013000834724540902
+    }
+  },
+  "results": [
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 681,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29159208201028125
+      },
+      "confusion_matrix": {
+        "tn": 461,
+        "fp": 1,
+        "fn": 219,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 681,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2860314084590367
+      },
+      "confusion_matrix": {
+        "tn": 452,
+        "fp": 10,
+        "fn": 219,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 562,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.1795657315588459
+      },
+      "confusion_matrix": {
+        "tn": 406,
+        "fp": 2,
+        "fn": 154,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 562,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.14285714285714285,
+        "recall": 0.012987012987012988,
+        "f1": 0.023809523809523808,
+        "pr_auc": 0.23241884116470624
+      },
+      "confusion_matrix": {
+        "tn": 396,
+        "fp": 12,
+        "fn": 152,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 536,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.23840100980909695
+      },
+      "confusion_matrix": {
+        "tn": 367,
+        "fp": 0,
+        "fn": 169,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 536,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3053936858670292
+      },
+      "confusion_matrix": {
+        "tn": 367,
+        "fp": 0,
+        "fn": 169,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 526,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.26124821766982204
+      },
+      "confusion_matrix": {
+        "tn": 359,
+        "fp": 4,
+        "fn": 163,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 526,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.018404907975460124,
+        "f1": 0.03550295857988166,
+        "pr_auc": 0.2652458898235966
+      },
+      "confusion_matrix": {
+        "tn": 360,
+        "fp": 3,
+        "fn": 160,
+        "tp": 3
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 547,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2955101216583679
+      },
+      "confusion_matrix": {
+        "tn": 345,
+        "fp": 0,
+        "fn": 202,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 547,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.009900990099009901,
+        "f1": 0.019417475728155338,
+        "pr_auc": 0.3329175526080368
+      },
+      "confusion_matrix": {
+        "tn": 343,
+        "fp": 2,
+        "fn": 200,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 543,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.18600675543809064
+      },
+      "confusion_matrix": {
+        "tn": 397,
+        "fp": 4,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_22",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 543,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.21961512325817684
+      },
+      "confusion_matrix": {
+        "tn": 389,
+        "fp": 12,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_22\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 506,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.20162101528837467
+      },
+      "confusion_matrix": {
+        "tn": 345,
+        "fp": 7,
+        "fn": 154,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 506,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29112809433227416
+      },
+      "confusion_matrix": {
+        "tn": 351,
+        "fp": 1,
+        "fn": 154,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 396,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.19937396704931348
+      },
+      "confusion_matrix": {
+        "tn": 278,
+        "fp": 3,
+        "fn": 115,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 396,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.24486705905240527
+      },
+      "confusion_matrix": {
+        "tn": 278,
+        "fp": 3,
+        "fn": 115,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 612,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.23982412999757993
+      },
+      "confusion_matrix": {
+        "tn": 393,
+        "fp": 7,
+        "fn": 212,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 612,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.14285714285714285,
+        "recall": 0.009433962264150943,
+        "f1": 0.017699115044247787,
+        "pr_auc": 0.2846060129651129
+      },
+      "confusion_matrix": {
+        "tn": 388,
+        "fp": 12,
+        "fn": 210,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 429,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.1891459725006939
+      },
+      "confusion_matrix": {
+        "tn": 311,
+        "fp": 4,
+        "fn": 114,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 429,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2255890182842404
+      },
+      "confusion_matrix": {
+        "tn": 306,
+        "fp": 9,
+        "fn": 114,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 648,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2020778052520615
+      },
+      "confusion_matrix": {
+        "tn": 435,
+        "fp": 12,
+        "fn": 201,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 648,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2451685060194782
+      },
+      "confusion_matrix": {
+        "tn": 436,
+        "fp": 11,
+        "fn": 201,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 528,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.19883712512670554
+      },
+      "confusion_matrix": {
+        "tn": 361,
+        "fp": 5,
+        "fn": 162,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 528,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.2777777777777778,
+        "recall": 0.030864197530864196,
+        "f1": 0.05555555555555555,
+        "pr_auc": 0.25385033584380867
+      },
+      "confusion_matrix": {
+        "tn": 353,
+        "fp": 13,
+        "fn": 157,
+        "tp": 5
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_7",
+      "method": "isolation_forest",
+      "rows": 642,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.18521745200624562
+      },
+      "confusion_matrix": {
+        "tn": 436,
+        "fp": 21,
+        "fn": 185,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_7\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_27",
+      "run": "run_7",
+      "method": "robust_iqr",
+      "rows": 642,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.005405405405405406,
+        "f1": 0.010638297872340425,
+        "pr_auc": 0.2577240168624971
+      },
+      "confusion_matrix": {
+        "tn": 455,
+        "fp": 2,
+        "fn": 184,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_27\\run_7\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 492,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.24984743177923677
+      },
+      "confusion_matrix": {
+        "tn": 292,
+        "fp": 1,
+        "fn": 199,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 492,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.37625609905094404
+      },
+      "confusion_matrix": {
+        "tn": 292,
+        "fp": 1,
+        "fn": 199,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 475,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2535550846107872
+      },
+      "confusion_matrix": {
+        "tn": 286,
+        "fp": 0,
+        "fn": 189,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 475,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3163425456848671
+      },
+      "confusion_matrix": {
+        "tn": 281,
+        "fp": 5,
+        "fn": 189,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 555,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3288783943478476
+      },
+      "confusion_matrix": {
+        "tn": 291,
+        "fp": 0,
+        "fn": 264,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 555,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.007575757575757576,
+        "f1": 0.014814814814814815,
+        "pr_auc": 0.39582210687210556
+      },
+      "confusion_matrix": {
+        "tn": 287,
+        "fp": 4,
+        "fn": 262,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 472,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.28435371369302465
+      },
+      "confusion_matrix": {
+        "tn": 267,
+        "fp": 2,
+        "fn": 203,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 472,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3684982754150576
+      },
+      "confusion_matrix": {
+        "tn": 260,
+        "fp": 9,
+        "fn": 203,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 526,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2976430678609514
+      },
+      "confusion_matrix": {
+        "tn": 296,
+        "fp": 0,
+        "fn": 230,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 526,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.004347826086956522,
+        "f1": 0.008658008658008658,
+        "pr_auc": 0.3737507150619335
+      },
+      "confusion_matrix": {
+        "tn": 296,
+        "fp": 0,
+        "fn": 229,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 544,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2641447321421939
+      },
+      "confusion_matrix": {
+        "tn": 316,
+        "fp": 0,
+        "fn": 228,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_28",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 544,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3798634908557965
+      },
+      "confusion_matrix": {
+        "tn": 303,
+        "fp": 13,
+        "fn": 228,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_28\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 594,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.27392675431339153
+      },
+      "confusion_matrix": {
+        "tn": 358,
+        "fp": 4,
+        "fn": 232,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 594,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.31801665970075915
+      },
+      "confusion_matrix": {
+        "tn": 351,
+        "fp": 11,
+        "fn": 232,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_1\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 617,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.21650778238427434
+      },
+      "confusion_matrix": {
+        "tn": 392,
+        "fp": 20,
+        "fn": 205,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 617,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.00975609756097561,
+        "f1": 0.01932367149758454,
+        "pr_auc": 0.28533526129703396
+      },
+      "confusion_matrix": {
+        "tn": 412,
+        "fp": 0,
+        "fn": 203,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_2\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 517,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2445573531235793
+      },
+      "confusion_matrix": {
+        "tn": 320,
+        "fp": 5,
+        "fn": 192,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 517,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.30555615651993756
+      },
+      "confusion_matrix": {
+        "tn": 324,
+        "fp": 1,
+        "fn": 192,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_3\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 638,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2791745796945659
+      },
+      "confusion_matrix": {
+        "tn": 374,
+        "fp": 7,
+        "fn": 257,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 638,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3752682291600311
+      },
+      "confusion_matrix": {
+        "tn": 381,
+        "fp": 0,
+        "fn": 257,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_4\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 548,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.23154193444814009
+      },
+      "confusion_matrix": {
+        "tn": 350,
+        "fp": 1,
+        "fn": 197,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 548,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.4,
+        "recall": 0.01015228426395939,
+        "f1": 0.019801980198019802,
+        "pr_auc": 0.3102942771613881
+      },
+      "confusion_matrix": {
+        "tn": 348,
+        "fp": 3,
+        "fn": 195,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_5\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 632,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2672402900807855
+      },
+      "confusion_matrix": {
+        "tn": 374,
+        "fp": 0,
+        "fn": 258,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_6\\causes.json"
+    },
+    {
+      "group": "coolant",
+      "experiment": "exp_35",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 632,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3530809676531052
+      },
+      "confusion_matrix": {
+        "tn": 361,
+        "fp": 13,
+        "fn": 258,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_coolant\\exp_35\\run_6\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 547,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.40650563172811327
+      },
+      "confusion_matrix": {
+        "tn": 289,
+        "fp": 0,
+        "fn": 258,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 547,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4227605338642994
+      },
+      "confusion_matrix": {
+        "tn": 288,
+        "fp": 1,
+        "fn": 258,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 442,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3230864918466926
+      },
+      "confusion_matrix": {
+        "tn": 272,
+        "fp": 1,
+        "fn": 169,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 442,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3141548237148758
+      },
+      "confusion_matrix": {
+        "tn": 264,
+        "fp": 9,
+        "fn": 169,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 455,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.39354528444378856
+      },
+      "confusion_matrix": {
+        "tn": 228,
+        "fp": 6,
+        "fn": 221,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 455,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4292051431481762
+      },
+      "confusion_matrix": {
+        "tn": 225,
+        "fp": 9,
+        "fn": 221,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 395,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.26950637215683204
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 0,
+        "fn": 141,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 395,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3724765894310694
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 0,
+        "fn": 141,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 406,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.2,
+        "recall": 0.005747126436781609,
+        "f1": 0.0111731843575419,
+        "pr_auc": 0.35192928222071446
+      },
+      "confusion_matrix": {
+        "tn": 228,
+        "fp": 4,
+        "fn": 173,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_10",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 406,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.33601042571591455
+      },
+      "confusion_matrix": {
+        "tn": 223,
+        "fp": 9,
+        "fn": 174,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_10\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 470,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.24503370595824356
+      },
+      "confusion_matrix": {
+        "tn": 305,
+        "fp": 1,
+        "fn": 164,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 470,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.14285714285714285,
+        "recall": 0.006097560975609756,
+        "f1": 0.011695906432748537,
+        "pr_auc": 0.29000579107203617
+      },
+      "confusion_matrix": {
+        "tn": 300,
+        "fp": 6,
+        "fn": 163,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 405,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2645421486503362
+      },
+      "confusion_matrix": {
+        "tn": 251,
+        "fp": 14,
+        "fn": 140,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 405,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3276782027634386
+      },
+      "confusion_matrix": {
+        "tn": 252,
+        "fp": 13,
+        "fn": 140,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 407,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2797582840518634
+      },
+      "confusion_matrix": {
+        "tn": 236,
+        "fp": 12,
+        "fn": 159,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 407,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3129401496014138
+      },
+      "confusion_matrix": {
+        "tn": 235,
+        "fp": 13,
+        "fn": 159,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 482,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2921133373388697
+      },
+      "confusion_matrix": {
+        "tn": 288,
+        "fp": 1,
+        "fn": 193,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 482,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3181818181818182,
+        "recall": 0.03626943005181347,
+        "f1": 0.06511627906976744,
+        "pr_auc": 0.34440205336579865
+      },
+      "confusion_matrix": {
+        "tn": 274,
+        "fp": 15,
+        "fn": 186,
+        "tp": 7
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 455,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.31046094002366076
+      },
+      "confusion_matrix": {
+        "tn": 257,
+        "fp": 12,
+        "fn": 186,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_12",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 455,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.005376344086021506,
+        "f1": 0.010582010582010581,
+        "pr_auc": 0.3269389682806993
+      },
+      "confusion_matrix": {
+        "tn": 267,
+        "fp": 2,
+        "fn": 185,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_12\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 474,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.28625779834804393
+      },
+      "confusion_matrix": {
+        "tn": 274,
+        "fp": 12,
+        "fn": 188,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 474,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.37453810533140736
+      },
+      "confusion_matrix": {
+        "tn": 286,
+        "fp": 0,
+        "fn": 188,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.18407654276822355
+      },
+      "confusion_matrix": {
+        "tn": 296,
+        "fp": 0,
+        "fn": 107,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2766631141286457
+      },
+      "confusion_matrix": {
+        "tn": 295,
+        "fp": 1,
+        "fn": 107,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 401,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2385270658103717
+      },
+      "confusion_matrix": {
+        "tn": 259,
+        "fp": 1,
+        "fn": 141,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 401,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.02127659574468085,
+        "f1": 0.04,
+        "pr_auc": 0.30603668710073617
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 6,
+        "fn": 138,
+        "tp": 3
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 434,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.35926465921218453
+      },
+      "confusion_matrix": {
+        "tn": 227,
+        "fp": 10,
+        "fn": 197,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_13",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 434,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3076923076923077,
+        "recall": 0.02030456852791878,
+        "f1": 0.0380952380952381,
+        "pr_auc": 0.3737011118659479
+      },
+      "confusion_matrix": {
+        "tn": 228,
+        "fp": 9,
+        "fn": 193,
+        "tp": 4
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_13\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 429,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.28125436441812146
+      },
+      "confusion_matrix": {
+        "tn": 245,
+        "fp": 13,
+        "fn": 171,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 429,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3942329911927406
+      },
+      "confusion_matrix": {
+        "tn": 258,
+        "fp": 0,
+        "fn": 171,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 486,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.33208417954085784
+      },
+      "confusion_matrix": {
+        "tn": 278,
+        "fp": 2,
+        "fn": 206,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 486,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.34488310626082563
+      },
+      "confusion_matrix": {
+        "tn": 267,
+        "fp": 13,
+        "fn": 206,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 468,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.34310863939123376
+      },
+      "confusion_matrix": {
+        "tn": 251,
+        "fp": 11,
+        "fn": 206,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 468,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.37504681184202027
+      },
+      "confusion_matrix": {
+        "tn": 250,
+        "fp": 12,
+        "fn": 206,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 441,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.33061410949130193
+      },
+      "confusion_matrix": {
+        "tn": 255,
+        "fp": 1,
+        "fn": 185,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_14",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 441,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.010810810810810811,
+        "f1": 0.0213903743315508,
+        "pr_auc": 0.36252592681145923
+      },
+      "confusion_matrix": {
+        "tn": 256,
+        "fp": 0,
+        "fn": 183,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_14\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 495,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4186665004559299
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 6,
+        "fn": 235,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 495,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.00851063829787234,
+        "f1": 0.016597510373443983,
+        "pr_auc": 0.3925310833466276
+      },
+      "confusion_matrix": {
+        "tn": 256,
+        "fp": 4,
+        "fn": 233,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 507,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.40752288740582854
+      },
+      "confusion_matrix": {
+        "tn": 294,
+        "fp": 6,
+        "fn": 207,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 507,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3325743750641465
+      },
+      "confusion_matrix": {
+        "tn": 300,
+        "fp": 0,
+        "fn": 207,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 593,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4397713445228311
+      },
+      "confusion_matrix": {
+        "tn": 306,
+        "fp": 12,
+        "fn": 275,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 593,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3759263687243338
+      },
+      "confusion_matrix": {
+        "tn": 309,
+        "fp": 9,
+        "fn": 275,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 488,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.21749836989084803
+      },
+      "confusion_matrix": {
+        "tn": 309,
+        "fp": 38,
+        "fn": 141,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 488,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.21806615012735667
+      },
+      "confusion_matrix": {
+        "tn": 334,
+        "fp": 13,
+        "fn": 141,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.35338537331727393
+      },
+      "confusion_matrix": {
+        "tn": 248,
+        "fp": 11,
+        "fn": 212,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_15",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3626264173883143
+      },
+      "confusion_matrix": {
+        "tn": 247,
+        "fp": 12,
+        "fn": 212,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_15\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 360,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.19836015995380765
+      },
+      "confusion_matrix": {
+        "tn": 240,
+        "fp": 14,
+        "fn": 106,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 360,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2563568390423074
+      },
+      "confusion_matrix": {
+        "tn": 243,
+        "fp": 11,
+        "fn": 106,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 536,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.19250924790960003
+      },
+      "confusion_matrix": {
+        "tn": 325,
+        "fp": 47,
+        "fn": 164,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 536,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2829673348789588
+      },
+      "confusion_matrix": {
+        "tn": 364,
+        "fp": 8,
+        "fn": 164,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 481,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.26450404569024505
+      },
+      "confusion_matrix": {
+        "tn": 279,
+        "fp": 12,
+        "fn": 190,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 481,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3364519912839164
+      },
+      "confusion_matrix": {
+        "tn": 290,
+        "fp": 1,
+        "fn": 190,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 578,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.24913217487210043
+      },
+      "confusion_matrix": {
+        "tn": 321,
+        "fp": 45,
+        "fn": 212,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 578,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.125,
+        "recall": 0.009433962264150943,
+        "f1": 0.017543859649122806,
+        "pr_auc": 0.2982001273301954
+      },
+      "confusion_matrix": {
+        "tn": 352,
+        "fp": 14,
+        "fn": 210,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 551,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3179577451215584
+      },
+      "confusion_matrix": {
+        "tn": 314,
+        "fp": 3,
+        "fn": 234,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_18",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 551,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.02564102564102564,
+        "f1": 0.047619047619047616,
+        "pr_auc": 0.38453861782735027
+      },
+      "confusion_matrix": {
+        "tn": 305,
+        "fp": 12,
+        "fn": 228,
+        "tp": 6
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_18\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 460,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.31163535907653284
+      },
+      "confusion_matrix": {
+        "tn": 271,
+        "fp": 9,
+        "fn": 180,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 460,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.16666666666666666,
+        "recall": 0.011111111111111112,
+        "f1": 0.020833333333333332,
+        "pr_auc": 0.34165027851882274
+      },
+      "confusion_matrix": {
+        "tn": 270,
+        "fp": 10,
+        "fn": 178,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 379,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.20756937955005988
+      },
+      "confusion_matrix": {
+        "tn": 207,
+        "fp": 49,
+        "fn": 123,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 379,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2712204876386076
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 2,
+        "fn": 123,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 482,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2139122782829802
+      },
+      "confusion_matrix": {
+        "tn": 293,
+        "fp": 33,
+        "fn": 156,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_20",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 482,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.4,
+        "recall": 0.01282051282051282,
+        "f1": 0.024844720496894408,
+        "pr_auc": 0.2767410456398981
+      },
+      "confusion_matrix": {
+        "tn": 323,
+        "fp": 3,
+        "fn": 154,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_20\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 546,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3042050740318373
+      },
+      "confusion_matrix": {
+        "tn": 323,
+        "fp": 0,
+        "fn": 223,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 546,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3068456652012986
+      },
+      "confusion_matrix": {
+        "tn": 317,
+        "fp": 6,
+        "fn": 223,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 440,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3033039366066194
+      },
+      "confusion_matrix": {
+        "tn": 273,
+        "fp": 0,
+        "fn": 167,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 440,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.26666666666666666,
+        "recall": 0.023952095808383235,
+        "f1": 0.04395604395604396,
+        "pr_auc": 0.3063815194321762
+      },
+      "confusion_matrix": {
+        "tn": 262,
+        "fp": 11,
+        "fn": 163,
+        "tp": 4
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 485,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3322565557119651
+      },
+      "confusion_matrix": {
+        "tn": 269,
+        "fp": 13,
+        "fn": 203,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 485,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3592944138708826
+      },
+      "confusion_matrix": {
+        "tn": 270,
+        "fp": 12,
+        "fn": 203,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 572,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2727736463333299
+      },
+      "confusion_matrix": {
+        "tn": 312,
+        "fp": 49,
+        "fn": 211,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 572,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29507157368640885
+      },
+      "confusion_matrix": {
+        "tn": 360,
+        "fp": 1,
+        "fn": 211,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 550,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3530993222876706
+      },
+      "confusion_matrix": {
+        "tn": 292,
+        "fp": 12,
+        "fn": 246,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_8",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 550,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4144975861391903
+      },
+      "confusion_matrix": {
+        "tn": 304,
+        "fp": 0,
+        "fn": 246,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_8\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 509,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.1729061403935991
+      },
+      "confusion_matrix": {
+        "tn": 364,
+        "fp": 3,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 509,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.125,
+        "recall": 0.014084507042253521,
+        "f1": 0.02531645569620253,
+        "pr_auc": 0.21154850481674614
+      },
+      "confusion_matrix": {
+        "tn": 353,
+        "fp": 14,
+        "fn": 140,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_1\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 515,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.16407307977368865
+      },
+      "confusion_matrix": {
+        "tn": 339,
+        "fp": 44,
+        "fn": 132,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 515,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.23529411764705882,
+        "recall": 0.030303030303030304,
+        "f1": 0.053691275167785234,
+        "pr_auc": 0.2014178043509145
+      },
+      "confusion_matrix": {
+        "tn": 370,
+        "fp": 13,
+        "fn": 128,
+        "tp": 4
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_2\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 522,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.30224615536867905
+      },
+      "confusion_matrix": {
+        "tn": 284,
+        "fp": 15,
+        "fn": 223,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 522,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.35368221160697527
+      },
+      "confusion_matrix": {
+        "tn": 288,
+        "fp": 11,
+        "fn": 223,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_3\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 502,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.27858105096018965
+      },
+      "confusion_matrix": {
+        "tn": 309,
+        "fp": 0,
+        "fn": 193,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 502,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.2857142857142857,
+        "recall": 0.010362694300518135,
+        "f1": 0.02,
+        "pr_auc": 0.3113608063070694
+      },
+      "confusion_matrix": {
+        "tn": 304,
+        "fp": 5,
+        "fn": 191,
+        "tp": 2
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_4\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29530695614906977
+      },
+      "confusion_matrix": {
+        "tn": 275,
+        "fp": 7,
+        "fn": 189,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_5\\causes.json"
+    },
+    {
+      "group": "hydraulics",
+      "experiment": "exp_9",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3478964532010609
+      },
+      "confusion_matrix": {
+        "tn": 271,
+        "fp": 11,
+        "fn": 189,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_hydraulics\\exp_9\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.43670369905050144
+      },
+      "confusion_matrix": {
+        "tn": 225,
+        "fp": 0,
+        "fn": 178,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3953030068671935
+      },
+      "confusion_matrix": {
+        "tn": 215,
+        "fp": 10,
+        "fn": 178,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 484,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.384138518727697
+      },
+      "confusion_matrix": {
+        "tn": 286,
+        "fp": 10,
+        "fn": 188,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 484,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3258685746667753
+      },
+      "confusion_matrix": {
+        "tn": 284,
+        "fp": 12,
+        "fn": 188,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 364,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.386584497195104
+      },
+      "confusion_matrix": {
+        "tn": 239,
+        "fp": 0,
+        "fn": 125,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 364,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3337364707224552
+      },
+      "confusion_matrix": {
+        "tn": 237,
+        "fp": 2,
+        "fn": 125,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 411,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.5053349190371526
+      },
+      "confusion_matrix": {
+        "tn": 204,
+        "fp": 0,
+        "fn": 207,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 411,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.4630891738741736
+      },
+      "confusion_matrix": {
+        "tn": 202,
+        "fp": 2,
+        "fn": 207,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 434,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.5169251623644254
+      },
+      "confusion_matrix": {
+        "tn": 230,
+        "fp": 2,
+        "fn": 202,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 434,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.40174747390340976
+      },
+      "confusion_matrix": {
+        "tn": 220,
+        "fp": 12,
+        "fn": 202,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 490,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.32152380799602787
+      },
+      "confusion_matrix": {
+        "tn": 321,
+        "fp": 7,
+        "fn": 162,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_1",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 490,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3097511166989593
+      },
+      "confusion_matrix": {
+        "tn": 315,
+        "fp": 13,
+        "fn": 162,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_1\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 542,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.47587717177701516
+      },
+      "confusion_matrix": {
+        "tn": 358,
+        "fp": 0,
+        "fn": 184,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 542,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.30161900747173664
+      },
+      "confusion_matrix": {
+        "tn": 345,
+        "fp": 13,
+        "fn": 184,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 443,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.23159591066254792
+      },
+      "confusion_matrix": {
+        "tn": 300,
+        "fp": 11,
+        "fn": 132,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 443,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3626130160399171
+      },
+      "confusion_matrix": {
+        "tn": 309,
+        "fp": 2,
+        "fn": 132,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 525,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.39581876129687105
+      },
+      "confusion_matrix": {
+        "tn": 368,
+        "fp": 1,
+        "fn": 156,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 525,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.27054606725585556
+      },
+      "confusion_matrix": {
+        "tn": 369,
+        "fp": 0,
+        "fn": 156,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 398,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.36939124674729373
+      },
+      "confusion_matrix": {
+        "tn": 251,
+        "fp": 0,
+        "fn": 147,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 398,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.39510790018275666
+      },
+      "confusion_matrix": {
+        "tn": 241,
+        "fp": 10,
+        "fn": 147,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 535,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2011764844387977
+      },
+      "confusion_matrix": {
+        "tn": 376,
+        "fp": 22,
+        "fn": 137,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 535,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.021897810218978103,
+        "f1": 0.04285714285714286,
+        "pr_auc": 0.26911006952097216
+      },
+      "confusion_matrix": {
+        "tn": 398,
+        "fp": 0,
+        "fn": 134,
+        "tp": 3
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3499431079544803
+      },
+      "confusion_matrix": {
+        "tn": 290,
+        "fp": 4,
+        "fn": 177,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 471,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.21428571428571427,
+        "recall": 0.01694915254237288,
+        "f1": 0.031413612565445025,
+        "pr_auc": 0.3071824475882034
+      },
+      "confusion_matrix": {
+        "tn": 283,
+        "fp": 11,
+        "fn": 174,
+        "tp": 3
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_7",
+      "method": "isolation_forest",
+      "rows": 359,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.22463392466690038
+      },
+      "confusion_matrix": {
+        "tn": 271,
+        "fp": 5,
+        "fn": 83,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_7\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_7",
+      "method": "robust_iqr",
+      "rows": 359,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2658242439107927
+      },
+      "confusion_matrix": {
+        "tn": 267,
+        "fp": 9,
+        "fn": 83,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_7\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_8",
+      "method": "isolation_forest",
+      "rows": 465,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.31403456102497185
+      },
+      "confusion_matrix": {
+        "tn": 280,
+        "fp": 4,
+        "fn": 181,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_8\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_2_3",
+      "run": "run_8",
+      "method": "robust_iqr",
+      "rows": 465,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3503910599847212
+      },
+      "confusion_matrix": {
+        "tn": 284,
+        "fp": 0,
+        "fn": 181,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_2_3\\run_8\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 439,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3829460235758771
+      },
+      "confusion_matrix": {
+        "tn": 312,
+        "fp": 3,
+        "fn": 124,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 439,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.24502833034811017
+      },
+      "confusion_matrix": {
+        "tn": 311,
+        "fp": 4,
+        "fn": 124,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 464,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3299346291056354
+      },
+      "confusion_matrix": {
+        "tn": 309,
+        "fp": 2,
+        "fn": 153,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 464,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.006535947712418301,
+        "f1": 0.012738853503184714,
+        "pr_auc": 0.2891039767799289
+      },
+      "confusion_matrix": {
+        "tn": 308,
+        "fp": 3,
+        "fn": 152,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 477,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.34576065799484035
+      },
+      "confusion_matrix": {
+        "tn": 298,
+        "fp": 0,
+        "fn": 179,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 477,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.33579344765495867
+      },
+      "confusion_matrix": {
+        "tn": 287,
+        "fp": 11,
+        "fn": 179,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 576,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.35002738635945274
+      },
+      "confusion_matrix": {
+        "tn": 344,
+        "fp": 8,
+        "fn": 224,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 576,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.5,
+        "recall": 0.004464285714285714,
+        "f1": 0.008849557522123894,
+        "pr_auc": 0.3192953774160403
+      },
+      "confusion_matrix": {
+        "tn": 351,
+        "fp": 1,
+        "fn": 223,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 563,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3793841332096265
+      },
+      "confusion_matrix": {
+        "tn": 338,
+        "fp": 0,
+        "fn": 225,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 563,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3586788092401123
+      },
+      "confusion_matrix": {
+        "tn": 327,
+        "fp": 11,
+        "fn": 225,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 507,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3076945541076347
+      },
+      "confusion_matrix": {
+        "tn": 336,
+        "fp": 0,
+        "fn": 171,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_4",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 507,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.005847953216374269,
+        "f1": 0.011428571428571429,
+        "pr_auc": 0.258510949228157
+      },
+      "confusion_matrix": {
+        "tn": 333,
+        "fp": 3,
+        "fn": 170,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_4\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 408,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.32002439761435114
+      },
+      "confusion_matrix": {
+        "tn": 271,
+        "fp": 15,
+        "fn": 122,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 408,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.27913772156288036
+      },
+      "confusion_matrix": {
+        "tn": 284,
+        "fp": 2,
+        "fn": 122,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 351,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3807038480608299
+      },
+      "confusion_matrix": {
+        "tn": 233,
+        "fp": 3,
+        "fn": 115,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 351,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3323262154568781
+      },
+      "confusion_matrix": {
+        "tn": 236,
+        "fp": 0,
+        "fn": 115,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 379,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29195741554530863
+      },
+      "confusion_matrix": {
+        "tn": 258,
+        "fp": 2,
+        "fn": 119,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 379,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.30852101853680447
+      },
+      "confusion_matrix": {
+        "tn": 248,
+        "fp": 12,
+        "fn": 119,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 427,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29639340890517
+      },
+      "confusion_matrix": {
+        "tn": 285,
+        "fp": 0,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 427,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.32440293047937735
+      },
+      "confusion_matrix": {
+        "tn": 274,
+        "fp": 11,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 524,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.5003182566657471
+      },
+      "confusion_matrix": {
+        "tn": 295,
+        "fp": 0,
+        "fn": 229,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 524,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.40016368581961465
+      },
+      "confusion_matrix": {
+        "tn": 284,
+        "fp": 11,
+        "fn": 229,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_6",
+      "method": "isolation_forest",
+      "rows": 489,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.5021450829002324
+      },
+      "confusion_matrix": {
+        "tn": 254,
+        "fp": 5,
+        "fn": 230,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_5",
+      "run": "run_6",
+      "method": "robust_iqr",
+      "rows": 489,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.43410933783125016
+      },
+      "confusion_matrix": {
+        "tn": 249,
+        "fp": 10,
+        "fn": 230,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_5\\run_6\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 456,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.42170350325725975
+      },
+      "confusion_matrix": {
+        "tn": 269,
+        "fp": 4,
+        "fn": 183,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 456,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.06666666666666667,
+        "recall": 0.00546448087431694,
+        "f1": 0.010101010101010102,
+        "pr_auc": 0.36794306558580797
+      },
+      "confusion_matrix": {
+        "tn": 259,
+        "fp": 14,
+        "fn": 182,
+        "tp": 1
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 364,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.40516105866712165
+      },
+      "confusion_matrix": {
+        "tn": 239,
+        "fp": 0,
+        "fn": 125,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 364,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3337364707224552
+      },
+      "confusion_matrix": {
+        "tn": 237,
+        "fp": 2,
+        "fn": 125,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 404,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3775950074870805
+      },
+      "confusion_matrix": {
+        "tn": 257,
+        "fp": 2,
+        "fn": 145,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_6",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 404,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.3494781509392797
+      },
+      "confusion_matrix": {
+        "tn": 259,
+        "fp": 0,
+        "fn": 145,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_6\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_1",
+      "method": "isolation_forest",
+      "rows": 542,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.48785254680575285
+      },
+      "confusion_matrix": {
+        "tn": 359,
+        "fp": 0,
+        "fn": 183,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_1",
+      "method": "robust_iqr",
+      "rows": 542,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.29998044459037915
+      },
+      "confusion_matrix": {
+        "tn": 346,
+        "fp": 13,
+        "fn": 183,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_1\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_2",
+      "method": "isolation_forest",
+      "rows": 394,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.28992787665227326
+      },
+      "confusion_matrix": {
+        "tn": 263,
+        "fp": 0,
+        "fn": 131,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_2",
+      "method": "robust_iqr",
+      "rows": 394,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.39531333770554955
+      },
+      "confusion_matrix": {
+        "tn": 262,
+        "fp": 1,
+        "fn": 131,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_2\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_3",
+      "method": "isolation_forest",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.36473262680209373
+      },
+      "confusion_matrix": {
+        "tn": 261,
+        "fp": 0,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_3",
+      "method": "robust_iqr",
+      "rows": 403,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.39044701669299503
+      },
+      "confusion_matrix": {
+        "tn": 261,
+        "fp": 0,
+        "fn": 142,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_3\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_4",
+      "method": "isolation_forest",
+      "rows": 441,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.45438675056224864
+      },
+      "confusion_matrix": {
+        "tn": 297,
+        "fp": 0,
+        "fn": 144,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_4",
+      "method": "robust_iqr",
+      "rows": 441,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.2954687848559865
+      },
+      "confusion_matrix": {
+        "tn": 295,
+        "fp": 2,
+        "fn": 144,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_4\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_5",
+      "method": "isolation_forest",
+      "rows": 438,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.32745233552607494
+      },
+      "confusion_matrix": {
+        "tn": 289,
+        "fp": 1,
+        "fn": 148,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_5\\causes.json"
+    },
+    {
+      "group": "probe",
+      "experiment": "exp_7",
+      "run": "run_5",
+      "method": "robust_iqr",
+      "rows": 438,
+      "threshold_source": "held-out normal-operation validation quantile 0.99",
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "pr_auc": 0.32603660999867845
+      },
+      "confusion_matrix": {
+        "tn": 277,
+        "fp": 13,
+        "fn": 148,
+        "tp": 0
+      },
+      "ground_truth_source": "dig_twin\\exp_probe\\exp_7\\run_5\\causes.json"
+    }
+  ]
+}

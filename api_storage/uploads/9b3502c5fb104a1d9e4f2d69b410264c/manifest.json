@@ -1,0 +1,18 @@
+{
+  "upload_id": "9b3502c5fb104a1d9e4f2d69b410264c",
+  "filename": "dataset_causRCA.zip",
+  "dataset_root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\9b3502c5fb104a1d9e4f2d69b410264c\\extracted",
+  "archive_md5": "5d57a40184697a4c2bf9eef7c385ebb5",
+  "authentic_source": "https://doi.org/10.5281/zenodo.15876410",
+  "validation": {
+    "root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\9b3502c5fb104a1d9e4f2d69b410264c\\extracted",
+    "normal_files": 170,
+    "fault_files": 100,
+    "schema": [
+      "node",
+      "time_s",
+      "type",
+      "value"
+    ]
+  }
+}

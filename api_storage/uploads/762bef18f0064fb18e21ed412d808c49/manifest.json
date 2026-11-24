@@ -1,0 +1,22 @@
+{
+  "upload_id": "762bef18f0064fb18e21ed412d808c49",
+  "dataset_id": "762bef18f0064fb18e21ed412d808c49",
+  "name": "causRCA \u2014 Industrial Fault Investigation Dataset",
+  "filename": "dataset_causRCA.zip",
+  "status": "ready",
+  "archive_validation": "verified",
+  "dataset_root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\762bef18f0064fb18e21ed412d808c49\\extracted",
+  "archive_md5": "5d57a40184697a4c2bf9eef7c385ebb5",
+  "authentic_source": "https://doi.org/10.5281/zenodo.15876410",
+  "validation": {
+    "root": "C:\\Users\\Nityaashree\\.copilot\\chats\\3dda9ce7-5c7f-40ad-9f6b-daa8d57d9635\\api_storage\\uploads\\762bef18f0064fb18e21ed412d808c49\\extracted",
+    "normal_files": 170,
+    "fault_files": 100,
+    "schema": [
+      "node",
+      "time_s",
+      "type",
+      "value"
+    ]
+  }
+}

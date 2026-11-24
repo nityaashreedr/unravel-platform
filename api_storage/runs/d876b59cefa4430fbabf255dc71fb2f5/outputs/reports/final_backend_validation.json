@@ -1,0 +1,83 @@
+{
+  "status": "completed",
+  "dataset_preserved": true,
+  "execution_checks": {
+    "fault_runs": 100,
+    "normal_files": 170,
+    "isolation_rows": 200,
+    "change_point_rows": 100,
+    "ranking_rows": 100,
+    "pelt_timestamps_are_actual_observation_timestamps": true,
+    "reports_match_expected_run_counts": true
+  },
+  "pelt_validation": {
+    "onset_detected": 100,
+    "total": 100,
+    "mean_delay_s": 3.7947100000000025,
+    "min_delay_s": 0.0,
+    "max_delay_s": 13.960999999999999
+  },
+  "normal_false_positives": {
+    "rows": 47920,
+    "isolation_forest": {
+      "threshold": 0.6028901447656638,
+      "false_positive_count": 480,
+      "false_positive_rate": 0.01001669449081803
+    },
+    "robust_iqr": {
+      "threshold": 32399.999,
+      "false_positive_count": 623,
+      "false_positive_rate": 0.013000834724540902
+    }
+  },
+  "isolation_forest_by_group": {
+    "coolant": 0.0,
+    "hydraulics": 0.0002725166916473634,
+    "probe": 0.0
+  },
+  "robust_baseline_by_group": {
+    "coolant": 0.009008856070325295,
+    "hydraulics": 0.011153220848858277,
+    "probe": 0.0034526102346317065
+  },
+  "cause_ranking_by_group": {
+    "coolant": {
+      "top1_accuracy": 0.0,
+      "top3_hit_rate": 0.04,
+      "top10_recall": 0.5666666666666667,
+      "mrr": 0.14247907647907648
+    },
+    "hydraulics": {
+      "top1_accuracy": 0.34146341463414637,
+      "top3_hit_rate": 0.4634146341463415,
+      "top10_recall": 0.43902439024390244,
+      "mrr": 0.4467134690592366
+    },
+    "probe": {
+      "top1_accuracy": 0.23529411764705882,
+      "top3_hit_rate": 0.5588235294117647,
+      "top10_recall": 0.8235294117647058,
+      "mrr": 0.4364721879427762
+    }
+  },
+  "candidate_set_validation": {
+    "candidate_input_nodes": 36,
+    "distinct_ground_truth_variables": 14,
+    "all_ground_truth_variables_are_graph_inputs": true
+  },
+  "separation": {
+    "training": "133 normal-operation files",
+    "validation": "34 normal-operation files",
+    "test": "100 fault runs",
+    "fault_labels_used_for_fit_or_threshold": false
+  },
+  "reproducibility": {
+    "complete_pipeline_rerun_hash_check": "passed for dataset_inventory.json, isolation_forest.json, change_points.json, cause_ranking.json, performance_audit.json"
+  },
+  "limitations": [
+    "The PELT criterion validates first detected change after documented onset, not exact physical causation.",
+    "Normal false-positive rate is approximately the selected 0.99 validation quantile and reflects multiple normal operating regimes.",
+    "Isolation Forest remains low-performing under leakage-safe evaluation; no fault labels were used to tune it.",
+    "Causal ranking is graph-constrained evidence ranking, not causal identification."
+  ]
+}

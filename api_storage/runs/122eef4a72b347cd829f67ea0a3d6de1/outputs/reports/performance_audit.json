@@ -1,0 +1,110 @@
+{
+  "scope": "Existing Unravel backend audit and leakage-safe improvement",
+  "dataset_facts": {
+    "normal_operation_files": 170,
+    "fault_files": 100,
+    "fault_groups": {
+      "coolant": 25,
+      "hydraulics": 41,
+      "probe": 34
+    }
+  },
+  "findings": [
+    {
+      "issue": "Training/evaluation overlap",
+      "severity": "high",
+      "finding": "Previous Isolation Forest was fit and scored on the same fault run."
+    },
+    {
+      "issue": "Threshold leakage",
+      "severity": "high",
+      "finding": "Previous threshold was the 95th percentile of the evaluated fault-run scores."
+    },
+    {
+      "issue": "Normal/fault separation",
+      "severity": "high",
+      "finding": "Previous implementation did not use the 170 normal-operation recordings for training."
+    },
+    {
+      "issue": "Change-point evaluation",
+      "severity": "medium",
+      "finding": "Previous report only tested overlap with a broad cause window; it did not report onset delay."
+    },
+    {
+      "issue": "Cause candidate space",
+      "severity": "high",
+      "finding": "Previous ranking considered all observed variables, allowing downstream alarms and process counters to outrank causal inputs."
+    },
+    {
+      "issue": "Ground truth use",
+      "severity": "low",
+      "finding": "Documented manipulated variables and cause timestamps are now used only for held-out evaluation, never fitting or inference."
+    }
+  ],
+  "improvements": [
+    "normal-operation-only Isolation Forest",
+    "held-out normal validation threshold",
+    "robust IQR baseline",
+    "PR-AUC and confusion matrices",
+    "Binseg and PELT onset delay evaluation",
+    "graph ancestor/input-node cause ranking",
+    "100-run evaluation"
+  ],
+  "new_outputs": {
+    "isolation_forest": "api_storage\\runs\\122eef4a72b347cd829f67ea0a3d6de1\\outputs\\reports\\isolation_forest.json",
+    "change_points": "api_storage\\runs\\122eef4a72b347cd829f67ea0a3d6de1\\outputs\\reports\\change_points.json",
+    "cause_ranking": "api_storage\\runs\\122eef4a72b347cd829f67ea0a3d6de1\\outputs\\reports\\cause_ranking.json"
+  },
+  "aggregate": {
+    "isolation_forest_f1_by_group": {
+      "coolant": 0.0,
+      "hydraulics": 0.0002725166916473634,
+      "probe": 0.0
+    },
+    "robust_iqr_f1_by_group": {
+      "coolant": 0.009008856070325295,
+      "hydraulics": 0.011153220848858277,
+      "probe": 0.0034526102346317065
+    },
+    "normal_validation": {
+      "rows": 47920,
+      "isolation_forest": {
+        "threshold": 0.6028901447656638,
+        "false_positive_count": 480,
+        "false_positive_rate": 0.01001669449081803
+      },
+      "robust_iqr": {
+        "threshold": 32399.999,
+        "false_positive_count": 623,
+        "false_positive_rate": 0.013000834724540902
+      }
+    },
+    "change_point_runs": 100,
+    "ranking_runs": 100,
+    "pelt_onset_detected": 100,
+    "pelt_mean_delay_s": 3.7947100000000025,
+    "candidate_set": {
+      "input_node_count": 36,
+      "ground_truth_variables": 14,
+      "ground_truth_variables_in_graph_input_set": 14,
+      "all_ground_truth_variables_valid": true
+    }
+  },
+  "before_metrics": {
+    "isolation_forest_f1": {
+      "coolant": 0.0,
+      "hydraulics": 0.027972027972027972,
+      "probe": 0.0
+    },
+    "ranking_top10_recall": {
+      "coolant": 0.5,
+      "hydraulics": 0.0,
+      "probe": 0.0
+    }
+  },
+  "limitations": [
+    "The fault-window labels measure the documented manipulation interval, not necessarily the first observable symptom.",
+    "The authentic normal-operation data contain multiple operating regimes; a single global normal model therefore remains conservative.",
+    "Ranking is graph-constrained and parameter-free but is still observational evidence ranking, not causal identification."
+  ]
+}
